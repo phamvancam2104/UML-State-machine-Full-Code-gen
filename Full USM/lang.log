@@ -1,0 +1,1808 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.1)  23 MAY 2016 13:02
+entering extended mode
+**lang.tex
+(lang.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+(llncs.cls
+Document Class: llncs 2014/03/31 v2.19 
+ LaTeX document class for Lecture Notes in Computer Science
+(C:\Users\VP242103\Downloads\tex\latex\base\article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(C:\Users\VP242103\Downloads\tex\latex\base\size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\Users\VP242103\Downloads\tex\latex\tools\multicol.sty
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
+\c@tracingmulticols=\count87
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count88
+\c@collectmore=\count89
+\doublecol@number=\count90
+\multicoltolerance=\count91
+\multicolpretolerance=\count92
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\maxbalancingoverflow=\dimen108
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count93
+\c@finalcolumnbadness=\count94
+\last@try=\dimen109
+\multicolovershoot=\dimen110
+\multicolundershoot=\dimen111
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\mc@col@check@num=\count95
+) (aliascnt.sty
+Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
+
+(remreset.sty))
+\c@chapter=\count96
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen112
+\tocsecnum=\dimen113
+\tocsectotal=\dimen114
+\tocsubsecnum=\dimen115
+\tocsubsectotal=\dimen116
+\tocsubsubsecnum=\dimen117
+\tocsubsubsectotal=\dimen118
+\tocparanum=\dimen119
+\tocparatotal=\dimen120
+\tocsubparanum=\dimen121
+\@tempcntc=\count97
+\fnindent=\dimen122
+\c@@inst=\count98
+\c@@auth=\count99
+\c@auco=\count100
+\instindent=\dimen123
+\authrun=\box52
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box53
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@theorem=\count101
+\c@case=\count102
+\c@conjecture=\count103
+\c@corollary=\count104
+\c@definition=\count105
+\c@example=\count106
+\c@exercise=\count107
+\c@lemma=\count108
+\c@note=\count109
+\c@problem=\count110
+\c@property=\count111
+\c@proposition=\count112
+\c@question=\count113
+\c@solution=\count114
+\c@remark=\count115
+\headlineindent=\dimen124
+) (C:\Users\VP242103\Downloads\tex\latex\base\inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+(C:\Users\VP242103\Downloads\tex\latex\base\utf8.def
+File: utf8.def 2015/06/27 v1.1n UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(C:\Users\VP242103\Downloads\tex\latex\base\t1enc.dfu
+File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(C:\Users\VP242103\Downloads\tex\latex\base\ot1enc.dfu
+File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(C:\Users\VP242103\Downloads\tex\latex\base\omsenc.dfu
+File: omsenc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(C:\Users\VP242103\Downloads\tex\generic\babel\babel.sty
+Package: babel 2015/08/03 3.9m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\VP242103\Downloads\tex\latex\00miktex\bblopts.cfg
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+(C:\Users\VP242103\Downloads\tex\latex\babel-english\english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(C:\Users\VP242103\Downloads\tex\generic\babel\babel.def
+File: babel.def 2015/08/03 3.9m Babel common definitions
+\babel@savecnt=\count116
+\U@D=\dimen125
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(C:\Users\VP242103\Downloads\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\VP242103\Downloads\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\VP242103\Downloads\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(C:\Users\VP242103\Downloads\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count117
+\float@exts=\toks21
+\float@box=\box54
+\@float@everytoks=\toks22
+\@floatcapt=\box55
+)
+(C:\Users\VP242103\Downloads\tex\latex\base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count118
+)
+(C:\Users\VP242103\Downloads\tex\latex\algorithmicx\algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count119
+\c@ALG@rem=\count120
+\c@ALG@nested=\count121
+\ALG@tlm=\skip45
+\ALG@thistlm=\skip46
+\c@ALG@Lnr=\count122
+\c@ALG@blocknr=\count123
+\c@ALG@storecount=\count124
+\c@ALG@tmpcounter=\count125
+\ALG@tmplength=\skip47
+) (C:\Users\VP242103\Downloads\tex\latex\algorithmicx\algpseudocode.sty
+Package: algpseudocode 
+
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (lang.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+ (C:\Users\VP242103\Downloads\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+
+(C:\Users\VP242103\Downloads\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (sections/abstract.tex) (sections/introduction.tex
+
+LaTeX Warning: Citation `Mussbacher2014' on page 1 undefined on input line 2.
+
+
+LaTeX Warning: Citation `Booch1998' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation ` Douglass1999' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Shalyto2006' on page 1 undefined on input line 6.
+
+
+LaTeX Warning: Citation `Douglass1999' on page 1 undefined on input line 6.
+
+
+Overfull \hbox (6.51485pt too wide) in paragraph at lines 2--7
+\OT1/cmr/m/n/10 The so-called Model-Driven En-gi-neer-ing (MDE) ap-proach re-li
+es on two paradigms,
+ []
+
+
+LaTeX Warning: Citation `Selic2012' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation `Hutchinson:2011:MEP:1985793.1985882' on page 1 undefin
+ed on input line 8.
+
+
+LaTeX Warning: Citation `Hettel2008' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `Sendall' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `Sendall' on page 1 undefined on input line 17.
+
+[1
+
+{C:/Users/VP242103/Downloads/pdftex/config/pdftex.map}]
+
+LaTeX Warning: Citation `sparxsystems_enterprise_2014' on page 2 undefined on i
+nput line 20.
+
+
+LaTeX Warning: Citation `ibm_rhapsody' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Citation `spinke_object-oriented_2013' on page 2 undefined on in
+put line 39.
+
+[2]
+
+LaTeX Warning: Reference `sec:approach' on page 3 undefined on input line 54.
+
+
+LaTeX Warning: Reference `sec:implementation' on page 3 undefined on input line
+ 54.
+
+
+LaTeX Warning: Reference `sec:experiments' on page 3 undefined on input line 54
+.
+
+
+LaTeX Warning: Reference `sec:related_works' on page 3 undefined on input line 
+54.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 3 undefined on input line 54.
+
+
+) (sections/formalize.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
+ (C:\Users\VP242103\Downloads\tex\latex\base\omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+
+Overfull \hbox (10.88171pt too wide) in paragraph at lines 30--31
+[]\OT1/cmr/m/it/10 A ChangeEvent $\OML/cmm/m/it/10 che$ \OT1/cmr/m/it/10 is as-
+so-ci-ated with a boolean ex-pres-sion $\OML/cmm/m/it/10 ex\OT1/cmr/m/n/10 (\OM
+L/cmm/m/it/10 che\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (12.87578pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/it/10 writ-ten in $\OML/cmm/m/it/10 ActLang$\OT1/cmr/m/it/10 . $\OML
+/cmm/m/it/10 che$ \OT1/cmr/m/it/10 is emit-ted if $\OML/cmm/m/it/10 ex\OT1/cmr/
+m/n/10 (\OML/cmm/m/it/10 che\OT1/cmr/m/n/10 )$ \OT1/cmr/m/it/10 changes from tr
+ue(false) to false(true). 
+ []
+
+[3]
+
+! LaTeX Error: Environment strip undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \begin{strip}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (32.07132pt too wide) in paragraph at lines 50--52
+[]\OT1/cmr/m/n/10 For each ver-tex $\OML/cmm/m/it/10 v$ $\OMS/cmsy/m/n/10 2$ $\
+OML/cmm/m/it/10 V$\OT1/cmr/m/n/10 , we write the fol-low-ing sets $\OML/cmm/m/i
+t/10 T[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10
+ incomings\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 
+; T[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (14.91869pt too wide) detected at line 59
+\OML/cmm/m/it/10 T[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ) = []
+ []
+
+
+Overfull \hbox (26.68921pt too wide) detected at line 68
+\OML/cmm/m/it/10 T[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ) = []
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{strip}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \end{strip}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:example' on page 4 undefined on input line 82.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 \begin{IEEEeqnarray*}
+                          {lCr}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.84 	ctner^
+            +(Idle) = \{StateMachine\}, \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \end{IEEEeqnarray*}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.86 \end{IEEEeqnarray*}
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[4]
+Overfull \hbox (38.56273pt too wide) in paragraph at lines 103--104
+[]\OT1/cmr/m/n/10 If $\OML/cmm/m/it/10 v:kind \OT1/cmr/m/n/10 = \OML/cmm/m/it/1
+0 concurrent$ \OT1/cmr/m/n/10 then $#\OML/cmm/m/it/10 regions\OT1/cmr/m/n/10 (\
+OML/cmm/m/it/10 v\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 > \OT1/cmr/m/n/10 0 \OMS/cm
+sy/m/n/10 ^ \OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 r \OMS/cmsy/m/n
+/10 2 \OML/cmm/m/it/10 regions\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/m/n/1
+0 ) : #\OML/cmm/m/it/10 subvertexes\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 r\OT1/cmr/
+m/n/10 ) \OML/cmm/m/it/10 >
+ []
+
+
+Overfull \hbox (32.11958pt too wide) in paragraph at lines 109--110
+\OML/cmm/m/it/10 triggerguardless \OMS/cmsy/m/n/10 ^ \OT1/cmr/m/n/10 (\OMS/cmsy
+/m/n/10 9\OML/cmm/m/it/10 s \OMS/cmsy/m/n/10 2 \OML/cmm/m/it/10 ctner[]\OT1/cmr
+/m/n/10 (\OML/cmm/m/it/10 src\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10
+ ))\OML/cmm/m/it/10 ; s:kind \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 concurrent\OT1/
+cmr/m/n/10 )) \OMS/cmsy/m/n/10 ^ \OML/cmm/m/it/10 head\OT1/cmr/m/n/10 (\OML/cmm
+/m/it/10 T[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :type \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (3.1257pt too wide) in paragraph at lines 113--114
+[]\OT1/cmr/m/n/10 If $\OML/cmm/m/it/10 v:kind \OMS/cmsy/m/n/10 2 []$\OT1/cmr/m/
+n/10 , then $\OML/cmm/m/it/10 ctner\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 v\OT1/cmr/
+m/n/10 )\OML/cmm/m/it/10 :kind \OMS/cmsy/m/n/10 2 f\OML/cmm/m/it/10 composite; 
+concurrent\OMS/cmsy/m/n/10 g ^
+ []
+
+
+Overfull \hbox (14.53262pt too wide) in paragraph at lines 115--116
+[]\OT1/cmr/m/n/10 If $\OML/cmm/m/it/10 v:kind \OT1/cmr/m/n/10 = \OML/cmm/m/it/1
+0 history$ \OT1/cmr/m/n/10 then $\OML/cmm/m/it/10 ctner\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 v\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 :kind \OMS/cmsy/m/n/10 2 f\OML/cmm
+/m/it/10 composite; concurrent\OMS/cmsy/m/n/10 g ^ \OT1/cmr/m/n/10 (\OML/cmm/m/
+it/10 ifv:kind \OT1/cmr/m/n/10 =
+ []
+
+
+! LaTeX Error: Environment comment undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 \begin{comment}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `fig:transitionGraph' on page 5 undefined on input lin
+e 131.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \begin{IEEEeqnarray*}
+                           {lCr}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.133 	\tau
+           _{1} &=& (\mathcal{S}_1, \mathcal{L}_1, \mathcal{P}_1, \mathcal{T...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.133 	\tau_{1} &
+                 =& (\mathcal{S}_1, \mathcal{L}_1, \mathcal{P}_1, \mathcal{T...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.133 	\tau_{1} &=&
+                    (\mathcal{S}_1, \mathcal{L}_1, \mathcal{P}_1, \mathcal{T...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.134 	&
+        & {} VerifyingPIN\}, \{Fork1\}, \{t2, t3, t4\})
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.134 	&&
+          {} VerifyingPIN\}, \{Fork1\}, \{t2, t3, t4\})
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \end{IEEEeqnarray*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.135 \end{IEEEeqnarray*}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 \begin{IEEEeqnarray*}
+                           {lCr}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.138 	\tau
+           _{2} &=& (\mathcal{S}_2, \mathcal{L}_2, \mathcal{P}_2, \mathcal{T...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.138 	\tau_{2} &
+                 =& (\mathcal{S}_2, \mathcal{L}_2, \mathcal{P}_2, \mathcal{T...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.138 	\tau_{2} &=&
+                    (\mathcal{S}_2, \mathcal{L}_2, \mathcal{P}_2, \mathcal{T...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.139 	&
+        & {} \{Idle\}, \{Join2, Choice3\}, \{t11, t13, t19, t16, t17\}).
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.139 	&&
+          {} \{Idle\}, \{Join2, Choice3\}, \{t11, t13, t19, t16, t17\}).
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140 \end{IEEEeqnarray*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.140 \end{IEEEeqnarray*}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (94.59134pt too wide) in paragraph at lines 131--141
+[]\OML/cmm/m/it/10 VerifyingPIN\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m
+/n/10 f\OML/cmm/m/it/10 Fork\OT1/cmr/m/n/10 1\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10
+ ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; t\OT
+1/cmr/m/n/10 3\OML/cmm/m/it/10 ; t\OT1/cmr/m/n/10 4\OMS/cmsy/m/n/10 g\OT1/cmr/m
+/n/10 )$ and lCr $\OML/cmm/m/it/10 [] \OT1/cmr/m/n/10 = (\OMS/cmsy/m/n/10 S[]\
+OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 L[]\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 P[]\O
+ML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 T[]\OT1/cmr/m/n/10 ) = (\OMS/cmsy/m/n/10 f\OM
+L/cmm/m/it/10 CardValid; PINIncorrect\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 ; [] 
+ []
+
+! Undefined control sequence.
+l.146 	\includegraphics
+                       [clip, trim=2.0cm 6cm 17.5cm 3cm, width=\columnwidth]...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.146 ...2.0cm 6cm 17.5cm 3cm, width=\columnwidth]
+                                                  {figures/transitionGraph.pdf}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.146 ...2.0cm 6cm 17.5cm 3cm, width=\columnwidth]
+                                                  {figures/transitionGraph.pdf}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 158.
+
+[5]
+
+LaTeX Warning: Reference `fig:example' on page 6 undefined on input line 202.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 \begin{IEEEeqnarray*}
+                           {lCr}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.204 	\tau
+           _{3} &=& (\mathcal{S}_3, \mathcal{L}_3, \mathcal{P}_3, \mathcal{T...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.204 	\tau_{3} &
+                 =& (\mathcal{S}_3, \mathcal{L}_3, \mathcal{P}_3, \mathcal{T...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.204 	\tau_{3} &=&
+                    (\mathcal{S}_3, \mathcal{L}_3, \mathcal{P}_3, \mathcal{T...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.205 	&
+        & {} CardValid\}, \{Choice1\}, \{t5, t6, t7\}),
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.205 	&&
+          {} CardValid\}, \{Choice1\}, \{t5, t6, t7\}),
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \end{IEEEeqnarray*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.206 \end{IEEEeqnarray*}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 \begin{IEEEeqnarray*}
+                           {lCr}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.208 	\tau
+           _{4} &=& (\{VerifyingPIN\}, \{PINIncorrect, \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.208 	\tau_{4} &
+                 =& (\{VerifyingPIN\}, \{PINIncorrect, \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.208 	\tau_{4} &=&
+                    (\{VerifyingPIN\}, \{PINIncorrect, \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.209 	&
+        & {} PINCorrect\}, \{Choice2\}, \{t8, t9, t10\}),
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.209 	&&
+          {} PINCorrect\}, \{Choice2\}, \{t8, t9, t10\}),
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 \end{IEEEeqnarray*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.210 \end{IEEEeqnarray*}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.212 \begin{IEEEeqnarray*}
+                           {lCr}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.213 	\tau
+           _{5} &=& (\{CardValid, PINCorrect\}, \{DispenseMoney\}, \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.213 	\tau_{5} &
+                 =& (\{CardValid, PINCorrect\}, \{DispenseMoney\}, \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.213 	\tau_{5} &=&
+                    (\{CardValid, PINCorrect\}, \{DispenseMoney\}, \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.214 	&
+        & {} \{Join2\}, \{t12, t14, t15\}).
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.214 	&&
+          {} \{Join2\}, \{t12, t14, t15\}).
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 \end{IEEEeqnarray*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.215 \end{IEEEeqnarray*}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (14.2155pt too wide) in paragraph at lines 202--216
+[]\OML/cmm/m/it/10 CardValid\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/
+10 f\OML/cmm/m/it/10 Choice\OT1/cmr/m/n/10 1\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 
+; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; t\OT1
+/cmr/m/n/10 6\OML/cmm/m/it/10 ; t\OT1/cmr/m/n/10 7\OMS/cmsy/m/n/10 g\OT1/cmr/m/
+n/10 )\OML/cmm/m/it/10 ;$ \OT1/cmr/m/n/10 lCr $\OML/cmm/m/it/10 [] \OT1/cmr/m/
+n/10 = (\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 VerifyingPIN\OMS/cmsy/m/n/10 g\OML/c
+mm/m/it/10 ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 PINIncorrect; [] 
+ []
+
+
+Overfull \hbox (100.75493pt too wide) in paragraph at lines 202--216
+[]\OML/cmm/m/it/10 PINCorrect\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m/n
+/10 f\OML/cmm/m/it/10 Choice\OT1/cmr/m/n/10 2\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10
+ ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; t\OT
+1/cmr/m/n/10 9\OML/cmm/m/it/10 ; t\OT1/cmr/m/n/10 10\OMS/cmsy/m/n/10 g\OT1/cmr/
+m/n/10 )\OML/cmm/m/it/10 ;$ \OT1/cmr/m/n/10 and lCr $\OML/cmm/m/it/10 [] \OT1/
+cmr/m/n/10 = (\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 CardValid; PINCorrect\OMS/cmsy
+/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 DispenseMoney\OM
+S/cmsy/m/n/10 g\OML/cmm/m/it/10 ; [] 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{comment}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 \end{comment}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[6]
+
+LaTeX Warning: Reference `fig:transitionGraph' on page 7 undefined on input lin
+e 230.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.231 \begin{IEEEeqnarray*}
+                           {lCr}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.232 	\tau
+           _{1} &=& (\mathcal{T}_r, \mathcal{P}, \mathcal{T}) = (\{t2\}, \{F...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.232 	\tau_{1} &
+                 =& (\mathcal{T}_r, \mathcal{P}, \mathcal{T}) = (\{t2\}, \{F...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.232 	\tau_{1} &=&
+                    (\mathcal{T}_r, \mathcal{P}, \mathcal{T}) = (\{t2\}, \{F...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 \end{IEEEeqnarray*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.233 \end{IEEEeqnarray*}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.235 \begin{IEEEeqnarray*}
+                           {lCr}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.236 	\tau
+           _{2} &=& (\{t11, t13\}, \{Join2, Choice3\}, \{t19, t16, t17\}).
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.236 	\tau_{2} &
+                 =& (\{t11, t13\}, \{Join2, Choice3\}, \{t19, t16, t17\}).
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.236 	\tau_{2} &=&
+                    (\{t11, t13\}, \{Join2, Choice3\}, \{t19, t16, t17\}).
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 \end{IEEEeqnarray*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.237 \end{IEEEeqnarray*}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (13.66309pt too wide) in paragraph at lines 230--238
+\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 2\OMS/cmsy
+/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 Fork\OT1/cmr/m/n
+/10 1\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 t\
+OT1/cmr/m/n/10 3\OML/cmm/m/it/10 ; t\OT1/cmr/m/n/10 4\OMS/cmsy/m/n/10 g\OT1/cmr
+/m/n/10 )$ and lCr $\OML/cmm/m/it/10 [] \OT1/cmr/m/n/10 = (\OMS/cmsy/m/n/10 f\
+OML/cmm/m/it/10 t\OT1/cmr/m/n/10 11\OML/cmm/m/it/10 ; t\OT1/cmr/m/n/10 13\OMS/c
+msy/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 Join\OT1/cmr/
+m/n/10 2\OML/cmm/m/it/10 ; Choice\OT1/cmr/m/n/10 3\OMS/cmsy/m/n/10 g\OML/cmm/m/
+it/10 ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 19\OML/cmm/m/it/10 
+; t\OT1/cmr/m/n/10 16\OML/cmm/m/it/10 ; t\OT1/cmr/m/n/10 17\OMS/cmsy/m/n/10 g\O
+T1/cmr/m/n/10 )\OML/cmm/m/it/10 :$ 
+ []
+
+! Undefined control sequence.
+l.243 	\includegraphics
+                       [clip, trim=2.0cm 6cm 17.5cm 3cm, width=\columnwidth]...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.243 ...2.0cm 6cm 17.5cm 3cm, width=\columnwidth]
+                                                  {figures/transitionGraph.pdf}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.243 ...2.0cm 6cm 17.5cm 3cm, width=\columnwidth]
+                                                  {figures/transitionGraph.pdf}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: Environment comment undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.248 \begin{comment}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{comment}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.251 \end{comment}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 255.
+
+
+LaTeX Warning: Reference `fig:example' on page 7 undefined on input line 297.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 \begin{IEEEeqnarray*}
+                           {lCr}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.299 	\tau
+           _{3} &=& (\mathcal{S}_3, \mathcal{L}_3, \mathcal{P}_3, \mathcal{T...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.299 	\tau_{3} &
+                 =& (\mathcal{S}_3, \mathcal{L}_3, \mathcal{P}_3, \mathcal{T...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.299 	\tau_{3} &=&
+                    (\mathcal{S}_3, \mathcal{L}_3, \mathcal{P}_3, \mathcal{T...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.300 	&
+        & {} CardValid\}, \{Choice1\}, \{t5, t6, t7\}),
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.300 	&&
+          {} CardValid\}, \{Choice1\}, \{t5, t6, t7\}),
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.301 \end{IEEEeqnarray*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.301 \end{IEEEeqnarray*}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.302 \begin{IEEEeqnarray*}
+                           {lCr}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.303 	\tau
+           _{4} &=& (\{VerifyingPIN\}, \{PINIncorrect, \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.303 	\tau_{4} &
+                 =& (\{VerifyingPIN\}, \{PINIncorrect, \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.303 	\tau_{4} &=&
+                    (\{VerifyingPIN\}, \{PINIncorrect, \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.304 	&
+        & {} PINCorrect\}, \{Choice2\}, \{t8, t9, t10\}),
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.304 	&&
+          {} PINCorrect\}, \{Choice2\}, \{t8, t9, t10\}),
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.305 \end{IEEEeqnarray*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.305 \end{IEEEeqnarray*}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Environment IEEEeqnarray* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.307 \begin{IEEEeqnarray*}
+                           {lCr}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.308 	\tau
+           _{5} &=& (\{CardValid, PINCorrect\}, \{DispenseMoney\}, \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.308 	\tau_{5} &
+                 =& (\{CardValid, PINCorrect\}, \{DispenseMoney\}, \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.308 	\tau_{5} &=&
+                    (\{CardValid, PINCorrect\}, \{DispenseMoney\}, \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.309 	&
+        & {} \{Join2\}, \{t12, t14, t15\}).
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.309 	&&
+          {} \{Join2\}, \{t12, t14, t15\}).
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{IEEEeqnarray*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.310 \end{IEEEeqnarray*}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.310 \end{IEEEeqnarray*}
+                         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (14.2155pt too wide) in paragraph at lines 297--311
+[]\OML/cmm/m/it/10 CardValid\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/
+10 f\OML/cmm/m/it/10 Choice\OT1/cmr/m/n/10 1\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 
+; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; t\OT1
+/cmr/m/n/10 6\OML/cmm/m/it/10 ; t\OT1/cmr/m/n/10 7\OMS/cmsy/m/n/10 g\OT1/cmr/m/
+n/10 )\OML/cmm/m/it/10 ;$ \OT1/cmr/m/n/10 lCr $\OML/cmm/m/it/10 [] \OT1/cmr/m/
+n/10 = (\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 VerifyingPIN\OMS/cmsy/m/n/10 g\OML/c
+mm/m/it/10 ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 PINIncorrect; [] 
+ []
+
+
+Overfull \hbox (100.75493pt too wide) in paragraph at lines 297--311
+[]\OML/cmm/m/it/10 PINCorrect\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m/n
+/10 f\OML/cmm/m/it/10 Choice\OT1/cmr/m/n/10 2\OMS/cmsy/m/n/10 g\OML/cmm/m/it/10
+ ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 ; t\OT
+1/cmr/m/n/10 9\OML/cmm/m/it/10 ; t\OT1/cmr/m/n/10 10\OMS/cmsy/m/n/10 g\OT1/cmr/
+m/n/10 )\OML/cmm/m/it/10 ;$ \OT1/cmr/m/n/10 and lCr $\OML/cmm/m/it/10 [] \OT1/
+cmr/m/n/10 = (\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 CardValid; PINCorrect\OMS/cmsy
+/m/n/10 g\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 DispenseMoney\OM
+S/cmsy/m/n/10 g\OML/cmm/m/it/10 ; [] 
+ []
+
+
+Overfull \hbox (44.72507pt too wide) in paragraph at lines 316--318
+[]\OT1/cmr/m/n/10 Given $\OML/cmm/m/it/10 sm$ \OT1/cmr/m/n/10 is a flat state m
+a-chine, whose ver-tex kinds are not in $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 com
+posite; concurrent\OMS/cmsy/m/n/10 g$\OT1/cmr/m/n/10 ,
+ []
+
+
+! LaTeX Error: No counter 'mytempeqncnt' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 	\setcounter{mytempeqncnt}{\value{equation}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (35.45161pt too wide) detected at line 337
+\OML/cmm/m/it/10 subactives[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10
+ ) = []
+ []
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \c@mytempeqncnt 
+l.339 	\setcounter{equation}{\value{mytempeqncnt}}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[7] [8]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 357.
+
+[9]
+
+LaTeX Warning: Reference `alg:transition1' on page 10 undefined on input line 4
+04.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 406.
+
+) (sections/approach.tex
+! Undefined control sequence.
+l.2 \lipsum
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) (sections/conclusion.tex
+! Undefined control sequence.
+l.2 \lipsum
+           [1]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) (lang.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [10] (lang.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2272 strings out of 493673
+ 27698 string characters out of 3144029
+ 103413 words of memory out of 3000000
+ 5590 multiletter control sequences out of 15000+200000
+ 11426 words of font info for 44 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 29i,14n,26p,1136b,313s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/VP242103/Downloads/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Us
+ers/VP242103/Downloads/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/VP24
+2103/Downloads/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/VP242103/Down
+loads/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/VP242103/Downloads/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/VP242103/Downloads/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb><C:/Users/VP242103/Downloads/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb><C:/Users/VP242103/Downloads/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb><C:/Users/VP242103/Downloads/fonts/type1/public/amsfonts/cm/cmmi
+9.pfb><C:/Users/VP242103/Downloads/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/VP242103/Downloads/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/VP2
+42103/Downloads/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/VP242103/Down
+loads/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/VP242103/Downloads/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/VP242103/Downloads/fonts/type1
+/public/amsfonts/cm/cmsy9.pfb><C:/Users/VP242103/Downloads/fonts/type1/public/a
+msfonts/cm/cmti10.pfb><C:/Users/VP242103/Downloads/fonts/type1/public/amsfonts/
+cm/cmti9.pfb><C:/Users/VP242103/Downloads/fonts/type1/public/amsfonts/cm/cmtt9.
+pfb><C:/Users/VP242103/Downloads/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+>
+Output written on lang.pdf (10 pages, 274909 bytes).
+PDF statistics:
+ 111 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
