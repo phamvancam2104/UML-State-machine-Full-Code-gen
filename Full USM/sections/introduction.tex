@@ -1,26 +1,62 @@
 \section{Introduction}
-The so-called Model-Driven Engineering (MDE) approach relies on two paradigms, abstraction and automation \cite{Mussbacher2014}. It is recognized as very efficient for dealing with complexity of today system. 
-%Abstraction is the ability to provide simplified and focused view of a system and requires adequate modeling language. 
-%Unified Modeling Language (UML) \cite{Specification2007} is nowadays the most used, educated, and documented modeling language. 
-%Even, if a graphical language such as Unified Modeling Language (UML) \cite{Specification2007} is not the silver bullet for all software related concerns, it provides hence better support than text-based solutions for some concerns such as architecture and logical behavior of application development. 
-Abstraction provides simplified and focused views of a system and requires adequate graphical modeling languages such as Unified Modeling Language (UML). Even, if the latter is not the silver bullet for all software related concerns, it provides better support than text-based solutions for some concerns such as architecture and logical behavior of application development. UML state machines (USMs) and their visual representations are much more suitable to describe logical behaviors of system entities than any equivalent text based descriptions. The gap from USMs to system implementation is reduced by the ability of automatically generating code from USMs  \cite{Booch1998, Douglass1999,Shalyto2006,Douglass1999}. 
+%1. Say the complexity, CPS .. UML SM is ...
+%2. MDE ..., OMG defines powerful specification for USM..
+%3. To blur the boundaries between... => need to have code generation
+%4. Problem: 1. most of existing... focus only on sequency aspect..., many pseudo states are not supported while these pseudo states are widely used as powerful means to describe the dynamic behavior of system. 2. Concurrency is not taken into account. 3. Generated code is dependent on library of generation tools => not portable. Speed + executable size + runtime execution memory consumptio (for IoT)n + semantic conformance.
+%To.... => this paper address the analysis for multithread-based concurrency code genration and the code generation for full UML state machine with respect to the specification...
+%Contribution: Concurrency, systematic approach for code generation, evaluation conforming to UML precise semantics...
+%Structure
 
-Ideally, a full model-centric approach is preferred by MDE community due to its advantages \cite{Selic2012}. However, in industrial practice, there is significant reticence \cite{Hutchinson:2011:MEP:1985793.1985882} to adopt it.
-On one hand, programmers prefer to
-use the more familiar textual programming language. 
-On the other hand, software architects, working at higher levels
-of abstraction, tend to favor the use of models, and therefore
-prefer graphical languages for describing the architecture of
-the system.
+The wide application of Internet of Things \cite{Li2015} drives the complexity of embedded systems today rapidly increases. 
+Today embedded applications directly interacting with running environment does not run in standalone mode but also react to the system environment changes. 
+Event-driven architecture \cite{Michelson2006} is an useful way to design such systems, in which events come to the system either from outside (data) or inside the system itself (time event or internal changes). 
+The Unified Modeling Language State Machine (USM) \cite{specification_uml_2007} standardized by OMG and its visualization are a powerful means to the modeling of the logical behavior of such systems.   
+USM defines how systems behave when there are changes occurred. 
+
+The rise in use of the Model-Driven Engineering (MDE) approach promotes the automation in software development. 
+MDE relies on two paradigms, abstraction and automation \cite{Mussbacher2014}, which are recognized as very efficient for dealing with complexity. 
+The most useful advantage of MDE is to bring the ability to automatically generating code from diagram-based modeling languages such as USM to executable code.  
+The gap between the modeling world, which consists of software architects, who prefer using graphical languages such as USM, and the implementation world, which involves programmers, is therefore reduced. 
+
+However, on the one hand, OMG seeks to raise the usefulness of UML State Machine by providing more modeling concepts supporting software architects for modeling and designing complex systems. 
+On the other hand, the support of existing generation approaches, over the years of research and development, is still limited to simple cases, especially when considering concurrency of \ti{doActivity} and orthogonal regions, pseudo states such as history, and different events. 
+This again enlarges the gap between the UML State Machine semantics and the actual generated code.
+Specifically, the following lists some issues of current approaches:
+
+\begin{itemize}
+	\item Most of existing tools and approaches only focus on the sequential aspect while the concurrency such as the \ti{doActivity} behavior of states and orthogonal regions is not taken into account.
+	
+	\item The support for pseudo states such as history, choice and junction is poor while these are very helpful in modeling.
+	
+	\item Code generated from tools such as \cite{ibm_rhapsody} and [FXU] is heavily dependent on their own libraries, which makes the generated code not portable.
+	
+	\item Issues of event processing speed, executable file size, runtime memory consumption, and UML semantic-conformance of generation code. 
+\end{itemize}
+
+In order for wider integrating MDE into software development today, one task, among other important tasks, is needed to seamlessly bring the theory specified by the UML specification and the Precise Semantics of UML Composite Structures (PSCS) \cite{OMG2015} into practice of complex software development with respect to the semantics as much as possible. 
+To do it, this paper presents a code generation approach whose objective is to clean the above issues. 
+
+We present a novel approach combining the IF-ELSE constructions of programming languages and the state pattern [XXX] with our support for concurrency. 
+Although supporting multi-thread-based concurrency, binary files compiled from and the event processing speed of runtime execution of code generated by our approach are smaller 20 and 30 [?] times, respectively, in comparison with to the boost library ==> should have compare with others.
+  
+%Abstraction provides simplified and focused views of a system and requires adequate graphical modeling languages such as Uni. Even, if the latter is not the silver bullet for all software related concerns, it provides better support than text-based solutions for some concerns such as architecture and logical behavior of application development. UML state machines (USMs) and their visual representations are much more suitable to describe logical behaviors of system entities than any equivalent text based descriptions. The gap from USMs to system implementation is reduced by the ability of automatically generating code from USMs  \cite{Booch1998, Douglass1999,Shalyto2006,Douglass1999}. 
+
+%Ideally, a full model-centric approach is preferred by MDE community due to its advantages \cite{Selic2012}. However, in industrial practice, there is significant reticence \cite{Hutchinson:2011:MEP:1985793.1985882} to adopt it.
+%On one hand, programmers prefer to
+%use the more familiar textual programming language. 
+%On the other hand, software architects, working at higher levels
+%of abstraction, tend to favor the use of models, and therefore
+%prefer graphical languages for describing the architecture of
+%the system.
 %However, on the one hand, maintaining code generated from existing approaches is non-trivial. On the other hand our observation is that it is very difficult to come up with formalizations that yield such elegant code generation solutions \cite{6032552}. In other words, generated code must be manually modified to build fully operational applications. 
 %On one hand there are traditional developers who prefer to implement the system by writing code, while on the other hand there are developers who prefer to use entirely models for the design and implementation of the system. 
-The code modified by programmers and the model are then inconsistent. Round-trip engineering (RTE) \cite{Hettel2008} is proposed to synchronize different software artifacts, model and code in this case \cite{Sendall}. RTE enables actors (software architect and programmers) to freely move between different representations \cite{Sendall} and stay efficient with their favorite working environment. 
+%The code modified by programmers and the model are then inconsistent. Round-trip engineering (RTE) \cite{Hettel2008} is proposed to synchronize different software artifacts, model and code in this case \cite{Sendall}. RTE enables actors (software architect and programmers) to freely move between different representations \cite{Sendall} and stay efficient with their favorite working environment. 
 
 %After code modifications, round-trip engineering (RTE) is needed to make the model and code consistent, which is a critical aspect to meet quality and performance constraint required from project managers today. 
-Unfortunately, current industrial tools such as for instance Enterprise Architect \cite{sparxsystems_enterprise_2014} and IBM Rhapsody\cite{ibm_rhapsody} only support structural concepts for RTE such as those available from class diagrams and code. Compared to RTE of class diagrams and code, RTE of USMs and code is non-trivial. It requires a semantical analysis of the source code, code pattern detection and mapping patterns into USM elements. 
-This is a hard task, since mainstream programming languages such as C++ and JAVA do not have a trivial mapping between USM elements and source code statements.
+%Unfortunately, current industrial tools such as for instance Enterprise Architect \cite{sparxsystems_enterprise_2014} and IBM Rhapsody\cite{ibm_rhapsody} only support structural concepts for RTE such as those available from class diagrams and code. Compared to RTE of class diagrams and code, RTE of USMs and code is non-trivial. It requires a semantical analysis of the source code, code pattern detection and mapping patterns into USM elements. 
+%This is a hard task, since mainstream programming languages such as C++ and JAVA do not have a trivial mapping between USM elements and source code statements.
 
-For software development, one may wonder whether this RTE is doable. That is, why do the industrial tools not support the propagation of source code modifications back to original state machines? Several possible reasons to this lack are (1) the gap between USMs and code, (2) not every source code modification can be reverse engineered back to the original model, and (3) the penalty of using transformation patterns facilitating the reverse engineering that may not be the most efficient (e.g. a slightly larger memory overhead). 
+%For software development, one may wonder whether this RTE is doable. That is, why do the industrial tools not support the propagation of source code modifications back to original state machines? Several possible reasons to this lack are (1) the gap between USMs and code, (2) not every source code modification can be reverse engineered back to the original model, and (3) the penalty of using transformation patterns facilitating the reverse engineering that may not be the most efficient (e.g. a slightly larger memory overhead). 
 %in the mind of these tools' vendors, users always make changes to models rather than to code. Generated code, in these tools, is therefore not supposed to be changed directly.  
 
 %In this paper, we address the RTE of UML State Machine diagrams and its related generated code. We propose a RTE approach consisting of a forward process which generates code by using transformation patterns, and a backward process which is based on code pattern detection to update the original state machine model from the modified generated code. From the proposed approach, we implemented a prototype and conducted several experiments on different aspects of the round-trip engineering to verify the proposed approach. 
@@ -36,19 +72,8 @@ For software development, one may wonder whether this RTE is doable. That is, wh
 %This paper addresses the RTE of UML state-machines and object-oriented programming languages such as C++ and JAVA. The forward  engineering of the approach takes as input a state-machine and executes two transformations. The first is UML to UML by utilizing several transformation patterns such as the double-dispatch approach presented in \cite{spinke_object-oriented_2013} and the second is a generation of code from the transformed UML. Traceability information is stored, during the transformations. In the backward direction, a verification is executed by the code pattern detection to verify the correctness of the code before the backward process taking as input the modified generated code, the UML classes, the original state-machine and mapping information together merges changes from code to the state-machine. We implemented a prototype supporting RTE of state-machine and C++ code, and conducted several experiments on different aspects of the RTE to verify the proposed approach. To the best of our knowledge, our implementation is the first tool supporting RTE of SM and code. 
 %The prototype also improves the collaboration between MDE developers and traditional programmers in developing reactive complex embedded systems.
 
-This paper addresses the RTE of USMs and object-oriented programming languages such as C++ and JAVA. The main idea is to utilize transformation patterns from USMs to source code that aggregates code segments associated with a USM element into source code methods/classes rather than scatters these segments in different places. Therefore, the reverse direction of the RTE can easily statically analyze the generated code by using code pattern detection and maps the code segments back to USM elements. Specifically, in the forward direction, we extend the double dispatch pattern presented in \cite{spinke_object-oriented_2013}. Traceability information is stored during the transformations. We implemented a prototype supporting RTE of state-machine and C++ code, and conducted several experiments on different aspects of the RTE to verify the proposed approach. To the best of our knowledge, our implementation is the first tool supporting RTE of SM and code. 
+%This paper addresses the RTE of USMs and object-oriented programming languages such as C++ and JAVA. The main idea is to utilize transformation patterns from USMs to source code that aggregates code segments associated with a USM element into source code methods/classes rather than scatters these segments in different places. Therefore, the reverse direction of the RTE can easily statically analyze the generated code by using code pattern detection and maps the code segments back to USM elements. Specifically, in the forward direction, we extend the double dispatch pattern presented in \cite{spinke_object-oriented_2013}. Traceability information is stored during the transformations. We implemented a prototype supporting RTE of state-machine and C++ code, and conducted several experiments on different aspects of the RTE to verify the proposed approach. To the best of our knowledge, our implementation is the first tool supporting RTE of SM and code. 
 
-To sum up, our contribution is as followings:
-\begin{itemize}
-	\item An approach to round-tripping USMs and object-oriented code.
-	\item A first tooling prototype supporting RTE of USMs and C++ code.
-	\item An evaluation of the proposed approach including:
-	\begin{itemize}
-		\item An automatic evaluation of the proposed RTE approach with the prototype.% including 300 random generated SM models containing 80 states, more than 230 transitions, more than 250 actions and around 180 events for each.
-		%\item A complexity analysis of the approach and performance evaluation.
-		\item A comparison and collaboration of two software development practices including working at the model level and at the code level.
-		\item A lightweight evaluation of the semantic conformance of the runtime execution of generated code.
-	\end{itemize}
-\end{itemize}
 
-The remaining of this paper is organized as follows: Our proposed approach is detailed in Section \ref{sec:approach}. The implementation of the prototype is described in Section \ref{sec:implementation}. Section \ref{sec:experiments} reports our results of experimenting with the implementation and our approach. Section \ref{sec:related_works} shows related work. The conclusion and future work are presented in Section \ref{sec:conclusion}.
+
+The remaining of this paper is organized as follows: A motivating example is given in Section \ref{sec:example}. Section \ref{subsec:background} presents preliminary USM concepts in a formal way. Thread-based concurrency is analyzed in Section \ref{sec:thread}. Based on the analysis, a code generation approach is proposed Section \ref{sec:codegen}. The implementation and empirical evaluation are reported in Section \ref{sec:exp}. Section \ref{sec:relatedwork} argues related work. The conclusion and future work are presented in Section \ref{sec:conclusion}.
