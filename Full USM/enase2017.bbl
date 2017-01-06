@@ -1,0 +1,219 @@
+\begin{thebibliography}{}
+
+\bibitem[Badreddin et~al., 2014a]{badreddin2014enhanced}
+Badreddin, O., Lethbridge, T.~C., Forward, A., Elaasar, M., Aljamaan, H., and
+  Garzon, M.~A. (2014a).
+\newblock Enhanced code generation from uml composite state machines.
+\newblock In {\em Model-Driven Engineering and Software Development
+  (MODELSWARD), 2014 2nd International Conference on}, pages 235--245. IEEE.
+
+\bibitem[Badreddin et~al., 2014b]{Badreddin2014}
+Badreddin, O., Lethbridge, T.~C., Forward, A., Elasaar, M., and Aljamaan, H.
+  (2014b).
+\newblock {Enhanced Code Generation from UML Composite State Machines}.
+\newblock {\em Modelsward 2014}, pages 1--11.
+
+\bibitem[Balser et~al., 2004]{balser2004interactive}
+Balser, M., B{\"a}umler, S., Knapp, A., Reif, W., and Thums, A. (2004).
+\newblock Interactive verification of uml state machines.
+\newblock In {\em International Conference on Formal Engineering Methods},
+  pages 434--448. Springer.
+
+\bibitem[Blech and Glesner, 2005]{Blech2005}
+Blech, J.~O. and Glesner, S. (2005).
+\newblock {Formal verification of java code generation from uml models}.
+\newblock In {\em {\ldots} of the 3rd International Fujaba Days}, pages 49--56.
+
+\bibitem[Booch et~al., 1998]{Booch1998}
+Booch, G., Rumbaugh, J., and Jacobson, I. (1998).
+\newblock {\em {The Unified Modeling Language User Guide}}, volume~3.
+
+\bibitem[{Boost Library}, 2016a]{boost}
+{Boost Library} (2016a).
+\newblock {Boost} {C++}.
+\newblock http://www.boost.org/.
+\newblock [Online; accessed 04-July-2016].
+
+\bibitem[{Boost Library}, 2016b]{MSM}
+{Boost Library} (2016b).
+\newblock {Meta} {State} {Machine}.
+\newblock
+  \url{http://www.boost.org/doc/libs/1\_59\_0\_b1/libs/msm/doc/HTML/index.html}.
+\newblock [Online; accessed 04-July-2016].
+
+\bibitem[{Boost Library}, 2016c]{EUML}
+{Boost Library} (2016c).
+\newblock {State} {Machine} {Benchmark}.
+\newblock
+  \url{http://www.boost.org/doc/libs/1\_61\_0/libs/msm/doc/HTML/ch03s04.html}.
+
+\bibitem[{Boost Library}, 2016d]{Statechart}
+{Boost Library} (2016d).
+\newblock {The} {Boost} {Statechart} {Library}.
+\newblock [Online; accessed 04-July-2016].
+
+\bibitem[Butenhof, 1997]{Posix}
+Butenhof, D.~R. (1997).
+\newblock {\em Programming with POSIX threads}.
+\newblock Addison-Wesley Professional.
+
+\bibitem[Charfi et~al., 2012]{6195875}
+Charfi, A., Mraidha, C., and Boulet, P. (2012).
+\newblock An optimized compilation of uml state machines.
+\newblock In {\em 2012 IEEE 15th International Symposium on
+  Object/Component/Service-Oriented Real-Time Distributed Computing}, pages
+  172--179.
+
+\bibitem[Dom\'{i}nguez et~al., 2012]{Domnguez2012}
+Dom\'{i}nguez, E., P\'{e}rez, B., Rubio, A.~L., and Zapata, M.~A. (2012).
+\newblock {A systematic review of code generation proposals from state machine
+  specifications}.
+
+\bibitem[Douglass, 1999]{Douglass1999}
+Douglass, B.~P. (1999).
+\newblock {\em {Real-time UML : developing efficient objects for embedded
+  systems}}.
+
+\bibitem[Forward et~al., 2010]{forward2010perceptions}
+Forward, A., Lethbridge, T.~C., and Badreddin, O. (2010).
+\newblock Perceptions of software modeling: A survey of software practitioners.
+\newblock In {\em in 5th Workshop from Code Centric to Model Centric:
+  Evaluating the Effectiveness of MDD (C2M: EEMDD), 2010. Available:
+  http://www. esi. es/modelplex/c2m/papers. php}. Citeseer.
+
+\bibitem[G{\'e}rard et~al., 2010]{cealistpapyrus}
+G{\'e}rard, S., Dumoulin, C., Tessier, P., and Selic, B. (2010).
+\newblock 19 papyrus: A uml2 tool for domain-specific language modeling.
+\newblock In {\em Model-Based Engineering of Embedded Real-Time Systems}, pages
+  361--368. Springer.
+
+\bibitem[IBM, 2016a]{ibmdiff}
+IBM (2016a).
+\newblock {IBM} {Rhapshody} {and} {UML} {differences}.
+\newblock \url{http://www-01.ibm.com/support/docview.wss?uid=swg27040251}.
+\newblock [Online; accessed 04-July-2016].
+
+\bibitem[IBM, 2016b]{ibm_rhapsody}
+IBM (2016b).
+\newblock Ibm {Rhapsody}.
+\newblock [Online; accessed 04-July-2016].
+
+\bibitem[Jusiak, 2016]{benchmark}
+Jusiak, K. (2016).
+\newblock {State} {Machine} {Benchmark}.
+\newblock \url{https://github.com/boost-experimental}.
+\newblock [Online; accessed 20-Oct-2016].
+
+\bibitem[Katz and Borriello, 2005]{katz2005contemporary}
+Katz, R.~H. and Borriello, G. (2005).
+\newblock Contemporary logic design.
+
+\bibitem[Knapp, 2004]{Knapp2004}
+Knapp, A. (2004).
+\newblock {Semantics of UML State Machines}.
+
+\bibitem[Lavender and Schmidt, 1996]{Lavender1996}
+Lavender, R.~G. and Schmidt, D.~C. (1996).
+\newblock {Active Object}.
+\newblock {\em Context}, pages 1--12.
+
+\bibitem[LISE, ]{PapyrusDesigner}
+LISE.
+\newblock {Papyrus} {Software} {Designer}.
+\newblock \url{https://wiki.eclipse.org/Papyrus\_Software\_Designer}.
+
+\bibitem[{Magic}, 2016]{Magicdraw}
+{Magic}, N. (2016).
+\newblock {Magic} {Draw}.
+\newblock \url{https://www.nomagic.com/products/magicdraw.html}.
+\newblock [Online; accessed 14-Mar-2016].
+
+\bibitem[Mussbacher et~al., 2014]{Mussbacher2014}
+Mussbacher, G., Amyot, D., Breu, R., Bruel, J.-m., Cheng, B. H.~C., Collet, P.,
+  Combemale, B., France, R.~B., Heldal, R., Hill, J., Kienzle, J., and
+  Sch{\"{o}}ttle, M. (2014).
+\newblock {The Relevance of Model-Driven Engineering Thirty Years from Now}.
+\newblock {\em ACM/IEEE 17th International Conference on Model Driven
+  Engineering Languages and Systems (MODELS)}, pages 183--200.
+
+\bibitem[Nethercote and Seward, 2007]{nethercote2007valgrind}
+Nethercote, N. and Seward, J. (2007).
+\newblock Valgrind: a framework for heavyweight dynamic binary instrumentation.
+\newblock In {\em ACM Sigplan notices}, volume~42, pages 89--100. ACM.
+
+\bibitem[Niaz et~al., 2004]{niaz_mapping_2004}
+Niaz, I.~A., Tanaka, J., and {others} (2004).
+\newblock Mapping {UML} statecharts to java code.
+\newblock In {\em {IASTED} {Conf}. on {Software} {Engineering}}, pages
+  111--116.
+
+\bibitem[OMG, 2016]{OMG2015}
+OMG (2016).
+\newblock {Precise Semantics of UML State Machines (PSSM) Revised Submission}.
+\newblock [Revised Submission, ad/16-11-01].
+
+\bibitem[Papyrus, 2016]{moka}
+Papyrus (2016).
+\newblock Moka {Model} {Execution}.
+\newblock \url{https://wiki.eclipse.org/Papyrus/UserGuide/ModelExecution}.
+\newblock [Online; accessed 01-Nov-2016].
+
+\bibitem[Pilitowski and Derezi{\~{n}}ska, 2007]{Pilitowski2007}
+Pilitowski, R. and Derezi{\~{n}}ska, A. (2007).
+\newblock {\em Code Generation and Execution Framework for UML 2.0 Classes and
+  State Machines}, pages 421--427.
+\newblock Springer Netherlands, Dordrecht.
+
+\bibitem[{Quantum Leaps}, 2016]{qm}
+{Quantum Leaps} (2016).
+\newblock {Quantum} {Modeling}.
+\newblock http://www.state-machine.com/qm/.
+\newblock [Online; accessed 14-May-2016].
+
+\bibitem[Shalyto and Shamgunov, 2006]{Shalyto2006}
+Shalyto, A. and Shamgunov, N. (2006).
+\newblock {State machine design pattern}.
+\newblock {\em Proc. of the 4th International Conference on.NET Technologies}.
+
+\bibitem[SparxSysems, 2016]{EA}
+SparxSysems (2016).
+\newblock {Enterprise} {Architect}.
+\newblock http://www.sparxsystems.com/products/ea/.
+\newblock [Online; accessed 14-Mar-2016].
+
+\bibitem[SparxSystems, 2016]{sparxsystems_enterprise_2014}
+SparxSystems (2016).
+\newblock Enterprise {Architect}.
+\newblock http://www.sparxsystems.eu/start/home/.
+\newblock [Online; accessed 20-Nov-2016].
+
+\bibitem[Specification and Bars, 2007]{Specification2007}
+Specification, O. M. G.~A. and Bars, C. (2007).
+\newblock {OMG Unified Modeling Language ( OMG UML )}.
+\newblock {\em Language}, (November):1 -- 212.
+
+\bibitem[Spinke, 2013]{spinke_object-oriented_2013}
+Spinke, V. (2013).
+\newblock An object-oriented implementation of concurrent and hierarchical
+  state machines.
+\newblock {\em Information and Software Technology}, 55(10):1726--1740.
+
+\bibitem[Valgrind, 2016]{Massif}
+Valgrind (2016).
+\newblock {Valgrind Massif}.
+\newblock http://valgrind.org/docs/manual/ms-manual.html.
+\newblock [Online; accessed 20-Nov-2016].
+
+\bibitem[Whittle et~al., 2014]{1030}
+Whittle, J., Hutchinson, J., and Rouncefield, M. (2014).
+\newblock Model-driven engineering practices in industry: Social,
+  organizational and managerial factors that lead to success or failure.
+\newblock {\em Science of Computer Programming}, 89:144--161.
+
+\bibitem[{Yasmine}, 2016]{trafficlight}
+{Yasmine} (2016).
+\newblock {The} {classic} {farmroad} {example}.
+\newblock http://yasmine.seadex.de/yasmine.html.
+\newblock [Online; accessed 20-Nov-2016].
+
+\end{thebibliography}

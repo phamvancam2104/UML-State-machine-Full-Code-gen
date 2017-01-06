@@ -1,0 +1,33 @@
+\section{\uppercase{State Machines and UML events}}
+\label{sec:modeling}
+This section presents overview of using UML State Machines for modeling and designing reactive software applications. 
+A state machine is used for describing the behavior of either a class in object-oriented design or a component in component-based design.
+In the following, we commonly use the term \ttt{class}.
+
+The state machine processes external and internal events.
+UML defines four event types: \ttt{CallEvent, SignalEvent, TimeEvent, ChangeEvent}.
+A call event is associated with an operation/method and emitted if the operation is invoked.
+The processing of call events is synchronous meaning that it runs within the thread of the operation caller.
+The processing of other events is asynchronous meaning that these events received by the class are stored in an event queue which is maintained by the class at runtime for later processing.
+A signal event is associated with a UML signal type containing data.
+It is emitted if the class receives an instance of the signal type.
+From a programming perspective, we provide an API \ttt{sendSignal} to send the signal instance from environment code or other classes to the class and store the event in the queue.                                             
+		
+A time event specifies the time of occurrence relative to a starting time. 
+The latter is defined as the time when a state with an outgoing transition triggered by the time event is entered.
+The time event is emitted if this accepting state remains active longer that the relative time of occurrence. 
+Once emitted, it triggers the transition.
+In other words, the state, which is the source vertex of a transition triggered by a time event, will remain active for a maximal amount of time specified by the time event.	
+A change event has a boolean expression and is fired if the expression's value changes from false to true. 
+Note that unlike call and signal events, time and change events are automatically fired inside the class.
+
+\vskip 0.1cm
+\noindent
+\tb{Deferred events}: A state can specify to defer some events.
+It means that if an event specified as deferred, it will be not processed while the state remains active.
+The deference of events is used to postpone the processing of some low-priority events while the state machine is in a certain state.
+%The deferred event will be pushed back to the event queue if another event in the event queue is processed.
+
+
+We support all of these events to model event-driven reactive applications.
+                                        

@@ -1,20 +1,29 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: FullUSM.aux
 The style file: IEEEtran.bst
 Database file #1: refs.bib
-Repeated entry---line 1409 of file refs.bib
+Repeated entry---line 1488 of file refs.bib
  : @misc{moka
  :           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2901 of file refs.bib
+Repeated entry---line 2765 of file refs.bib
+ : @article{OMG2015
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2989 of file refs.bib
  : @article{Mussbacher2014
  :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3135 of file refs.bib
+ : @electronic{OMG
+ :                ,
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in OMG2015
+Warning--empty journal in Knapp2004
 Warning--missing publisher in Booch1998
 Warning--missing publisher in Douglass1999
 
 Done.
-(There were 2 error messages)
+(There were 4 error messages)

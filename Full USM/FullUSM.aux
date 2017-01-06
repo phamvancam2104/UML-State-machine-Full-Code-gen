@@ -1,94 +1,145 @@
 \relax 
 \providecommand\zref@newlabel[2]{}
-\citation{Li2015}
-\citation{Michelson2006}
 \citation{specification_uml_2007}
+\citation{omg}
 \citation{Mussbacher2014}
+\citation{ibmdiff}
+\citation{EA}
+\citation{EA}
+\citation{sinelabore}
 \citation{ibm_rhapsody}
+\citation{Pilitowski2007}
 \citation{OMG2015}
+\citation{niaz_mapping_2004}
 \providecommand\tcolorbox@label[2]{}
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces ATM State machine example}}{2}}
-\newlabel{fig:example}{{1}{2}}
-\@writefile{toc}{\contentsline {section}{\numberline {II}Motivating example}{2}}
-\newlabel{sec:example}{{II}{2}}
-\@writefile{toc}{\contentsline {section}{\numberline {III}Background definition}{2}}
-\newlabel{subsec:background}{{III}{2}}
-\@writefile{toc}{\contentsline {section}{\numberline {IV}Thread-based Concurrency}{3}}
-\newlabel{sec:thread}{{IV}{3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Thread-based concurrency analysis}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Concurrency of the ATM when receiving the \textit  {verifyingPIN} event}}{3}}
-\newlabel{fig:threading1}{{2}{3}}
-\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces State machine constraints}}{4}}
-\newlabel{table:constraint}{{I}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Concurrency of the ATM when \textit  {doActivity} of \textit  {VerifyingCard} completes before that of \textit  {VerifyingPIN}}}{4}}
-\newlabel{fig:threading2}{{3}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Thread-based design of generated code}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Deadlock avoidance}{4}}
-\@writefile{toc}{\contentsline {section}{\numberline {V}Code generation pattern}{5}}
-\newlabel{sec:codegen}{{V}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Assumption}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}State transformation}{5}}
-\newlabel{lst:IStateCpp}{{1}{5}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}IState interface and function pointers in C++}{5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Example illustrating different ways entering a composite state}}{5}}
-\newlabel{fig:entering}{{4}{5}}
-\newlabel{lst:doActivity}{{2}{5}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}Example code generated for doActivity}{5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}Region transformation}{5}}
-\newlabel{subsubsec:region-trans}{{\unhbox \voidb@x \hbox {V-C}}{5}}
-\newlabel{lst:region}{{3}{6}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}Example code generated for the region of S1}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-D}}Event and transition transformation}{6}}
-\newlabel{subsec:event}{{\unhbox \voidb@x \hbox {V-D}}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {V-D}1}Events}{6}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {V-D}2}Transitions}{6}}
-\newlabel{lst:eventproc}{{4}{6}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}Generation process for an event}{6}}
-\newlabel{alg:transitiongeneration}{{1}{7}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Code generation for transition }}{7}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {V-D}3}Example Code}{7}}
+\newlabel{sec:intro}{{I}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Background definition}{1}}
+\newlabel{subsec:background}{{II}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Thread-based Concurrency}{2}}
+\newlabel{sec:thread}{{III}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Thread-based design of generated code}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Deadlock avoidance}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Code generation pattern}{3}}
+\newlabel{sec:codegen}{{IV}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Assumption}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}State transformation}{3}}
+\newlabel{lst:IStateCpp}{{1}{3}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}IState interface and function pointers in C++}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Example illustrating different ways entering a composite state}}{3}}
+\newlabel{fig:entering}{{1}{3}}
+\newlabel{lst:doActivity}{{2}{3}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}Example code generated for doActivity}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Region transformation}{3}}
+\newlabel{subsubsec:region-trans}{{\unhbox \voidb@x \hbox {IV-C}}{3}}
+\citation{niaz_mapping_2004}
+\newlabel{lst:region}{{3}{4}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}Example code generated for the region of S1}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}Event and transition transformation}{4}}
+\newlabel{subsec:event}{{\unhbox \voidb@x \hbox {IV-D}}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}1}Events}{4}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Event code generation pattern}}{4}}
+\newlabel{table:event-pattern}{{I}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Event data structure}}{4}}
+\newlabel{fig:eventqueue}{{2}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}2}Transitions}{4}}
+\citation{balser2004interactive}
+\citation{Knapp2004}
+\citation{qompass}
+\citation{cea-list_papyrus_????}
+\newlabel{lst:eventproc}{{4}{5}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}Generation process for an event}{5}}
+\newlabel{lst:event}{{5}{5}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}Example code generated for completion events triggering transitions t14 and t15}{5}}
+\newlabel{lst:event1}{{6}{5}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {6}Example code generated for $Fork1$ and $junc$}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Code generation procedure for transition: GENTRANS}}{5}}
+\newlabel{alg:transitiongeneration}{{II}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Empirical Study}{5}}
+\newlabel{sec:exp}{{V}{5}}
 \citation{moka}
-\citation{OMG2015}
 \citation{Blech2005}
+\citation{boost}
+\citation{benchmark}
+\citation{simpleexample}
+\citation{compositeexample}
+\citation{Magicdraw}
+\citation{EA}
+\citation{QM}
+\citation{Statechart}
+\citation{MSM}
+\citation{benchmark}
+\citation{EUML}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Pseudo state code generation pattern}}{6}}
+\newlabel{table:pseudo-patterm}{{III}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Semantic conformance of runtime execution}{6}}
+\newlabel{subsec:exp1}{{\unhbox \voidb@x \hbox {V-A}}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Semantic conformance evaluation methodology}}{6}}
+\newlabel{fig:semanticconformance}{{3}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}Benchmarks}{6}}
+\newlabel{subsec:exp2}{{\unhbox \voidb@x \hbox {V-B}}{6}}
+\citation{Massif}
+\citation{Domnguez2012}
 \citation{Booch1998}
 \citation{Douglass1999}
 \citation{Shalyto2006}
 \citation{Douglass1999}
 \citation{niaz_mapping_2004}
+\citation{spinke_object-oriented_2013}
+\citation{niaz_mapping_2004}
+\citation{spinke_object-oriented_2013}
 \citation{ibm_rhapsody}
 \citation{sparxsystems_enterprise_2014}
-\citation{Domnguez2012}
-\citation{spinke_object-oriented_2013}
+\citation{Pilitowski2007}
+\citation{niaz_mapping_2004}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Semantic-conformance test results (number of passed/total tests)}}{7}}
+\newlabel{table:semantic-test}{{IV}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Event processing speed for the benchmark}}{7}}
+\newlabel{fig:boxplot}{{4}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {V-B}1}Speed}{7}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {V-B}2}Binary size and runtime memory consumption}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Related work}{7}}
+\newlabel{sec:relatedwork}{{VI}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Conclusion}{7}}
+\newlabel{sec:conclusion}{{VII}{7}}
 \bibstyle{IEEEtran}
 \bibdata{refs}
-\bibcite{Li2015}{1}
-\bibcite{Michelson2006}{2}
-\bibcite{specification_uml_2007}{3}
-\bibcite{Mussbacher2014}{4}
-\bibcite{ibm_rhapsody}{5}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Semantic conformance evaluation methodology}}{8}}
-\newlabel{fig:semanticconformance}{{5}{8}}
-\newlabel{lst:event}{{5}{8}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}Example code generated for event $verifyingPIN$}{8}}
-\newlabel{lst:event1}{{6}{8}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {6}Example code generated for $Join1$ and $Junction1$}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {VI}experiments}{8}}
-\newlabel{sec:exp}{{VI}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VI-A}}Semantic conformance of runtime execution}{8}}
-\newlabel{subsec:exp1}{{\unhbox \voidb@x \hbox {VI-A}}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {VII}Related work}{8}}
-\newlabel{sec:relatedwork}{{VII}{8}}
-\@writefile{toc}{\contentsline {section}{\numberline {VIII}Conclusion}{8}}
-\newlabel{sec:conclusion}{{VIII}{8}}
+\bibcite{specification_uml_2007}{1}
+\bibcite{omg}{2}
+\bibcite{Mussbacher2014}{3}
+\bibcite{ibmdiff}{4}
+\bibcite{EA}{5}
+\bibcite{sinelabore}{6}
+\bibcite{ibm_rhapsody}{7}
+\bibcite{Pilitowski2007}{8}
+\bibcite{OMG2015}{9}
+\bibcite{niaz_mapping_2004}{10}
+\bibcite{balser2004interactive}{11}
+\bibcite{Knapp2004}{12}
+\bibcite{qompass}{13}
+\bibcite{cea-list_papyrus_????}{14}
+\bibcite{moka}{15}
+\bibcite{Blech2005}{16}
+\bibcite{boost}{17}
+\bibcite{benchmark}{18}
+\bibcite{simpleexample}{19}
+\bibcite{compositeexample}{20}
+\bibcite{Magicdraw}{21}
+\bibcite{QM}{22}
+\bibcite{Statechart}{23}
+\bibcite{MSM}{24}
+\bibcite{EUML}{25}
+\bibcite{Massif}{26}
+\bibcite{Domnguez2012}{27}
+\bibcite{Booch1998}{28}
+\bibcite{Douglass1999}{29}
+\bibcite{Shalyto2006}{30}
+\bibcite{spinke_object-oriented_2013}{31}
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Event processing speed in ms}}{8}}
+\newlabel{table-speed}{{V}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Executable size in Kb}}{8}}
+\newlabel{table-size}{{VI}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces Runtime memory consumption in KB. Columns (1) to (7) are SC, MSM, MSM-Lite, EUML, Sinelabore, QM, and our approach, respectively.}}{8}}
+\newlabel{table:usage}{{VII}{8}}
 \@writefile{toc}{\contentsline {section}{References}{8}}
-\bibcite{OMG2015}{6}
-\bibcite{moka}{7}
-\bibcite{Blech2005}{8}
-\bibcite{Booch1998}{9}
-\bibcite{Douglass1999}{10}
-\bibcite{Shalyto2006}{11}
-\bibcite{niaz_mapping_2004}{12}
-\bibcite{sparxsystems_enterprise_2014}{13}
-\bibcite{Domnguez2012}{14}
-\bibcite{spinke_object-oriented_2013}{15}
+\bibcite{sparxsystems_enterprise_2014}{32}

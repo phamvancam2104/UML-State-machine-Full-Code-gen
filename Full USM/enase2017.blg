@@ -1,0 +1,35 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: enase2017.aux
+The style file: apalike.bst
+Database file #1: refs.bib
+Repeated entry---line 543 of file refs.bib
+ : @article {1030
+ :               ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1267 of file refs.bib
+ :  
+ :  note={2016-04-13},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1564 of file refs.bib
+ :  
+ :  file = {Software Design Tools for Agile Teams, with UML, BPMN and More:C\:\\Users\\VP242103\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\x5kjwptk.default\\zotero\\storage\\7V3W9PSE\\www.visual-paradigm.com.html:text/html}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 3079 of file refs.bib
+ : @article{Specification2007
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3093 of file refs.bib
+ : @article{Mussbacher2014
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--empty publisher in Booch1998
+Warning--empty publisher in Douglass1999
+Warning--empty journal in katz2005contemporary
+Warning--empty journal in Knapp2004
+Warning--empty year in PapyrusDesigner
+Warning--can't use both volume and number fields in nethercote2007valgrind
+Warning--empty journal in OMG2015
+Warning--can't use both author and editor fields in Pilitowski2007
+Warning--there's a number but no volume in Specification2007
+(There were 5 error messages)

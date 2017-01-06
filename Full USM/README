@@ -1,13 +1,12 @@
 
-March 5, 2007
+August 26, 2015
 
 
-IEEEtran is the official LaTeX class for authors of the Institute of
-Electrical and Electronics Engineers (IEEE) transactions journals and
-conferences. The latest version of the IEEEtran package can be found
-at CTAN:
+IEEEtran is a LaTeX class for authors of the Institute of Electrical and
+Electronics Engineers (IEEE) transactions journals and conferences.
+The latest version of the IEEEtran package can be found at CTAN:
 
-http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+http://www.ctan.org/pkg/ieeetran
 
 as well as within IEEE's site:
 
@@ -19,72 +18,53 @@ website:
 
 http://www.michaelshell.org/tex/ieeetran/
 
+Version 1.8b has a number of significant changes over the v1.8a release.
+For a full history of changes, please read the file changelog.txt.
+The most notable changes in this release include:
 
-Version 1.7a is a bug fix release that corrects the two column peer
-review title page problem. This problem was not present in the 1.6 series.
+ 1) Added new comsoc mode for the IEEE Communications Society.
+    This mode (at present) only invokes the use of the newtxmath math fonts.
+ 
+ 2) Revised IEEEeqnarray column specifications to work with active " 
+    (or other punctuation catcode changes) as with babel under the
+    german or ngerman language modes. 
+    Thanks to Stefan M. Moser for reporting this problem.
 
+ 3) Added \indexspace and other index related macros as newer versions of
+    article.cls now do. These macros are needed to avoid an error when
+    using the glossaries package.
+    Thanks to Sebastian Nyberg for suggesting this change.
 
-V1.7 is a significant update over the 1.6 series with many important
-changes. For a full list, please read the file changelog.txt. The most
-notable changes include:
+ 4) Fixed odd/even page header font bug under compsoc mode and
+    other page style code improvements.
+    Thanks to Marco Paolieri for reporting this problem.
 
- 1. New class option compsoc to support the IEEE Computer Society format.
+ 5) Added hooks to allow for easy control of spacing above title.
 
- 2. Several commands and environments have been deprecated in favor of
-    replacements with IEEE prefixes to better avoid potential future name
-    clashes with other packages. Legacy code retained to allow the use of
-    the obsolete forms (for now), but with a warning message to the console
-    during compilation:
-    \IEEEauthorblockA, \IEEEauthorblockN, \IEEEauthorrefmark,
-    \IEEEbiography, \IEEEbiographynophoto, \IEEEkeywords, \IEEEPARstart,
-    \IEEEproof, \IEEEpubid, \IEEEpubidadjcol, \IEEEQED, \IEEEQEDclosed,
-    \IEEEQEDopen, \IEEEspecialpapernotice. IEEEtran.cls now redefines
-    \proof in way to avoid problems with the amsthm.sty package.
-    For IED lists:
-    \IEEEiedlabeljustifyc, \IEEEiedlabeljustifyl, \IEEEiedlabeljustifyr,
-    \IEEEnocalcleftmargin, \IEEElabelindent, \IEEEsetlabelwidth,
-    \IEEEusemathlabelsep
-    These commands/lengths now require the IEEE prefix and do not have
-    legacy support: \IEEEnormaljot.
-    For IED lists: \ifIEEEnocalcleftmargin, \ifIEEEnolabelindentfactor,
-    \IEEEiedlistdecl, \IEEElabelindentfactor
-
- 3. New \CLASSINPUT, \CLASSOPTION and \CLASSINFO interface allows for more
-    user control and conditional compilation.
-
- 4. Several bug fixes and improved compatibility with other packages.
+ 6) Added the \IEEEnoauxwrite command.
+    Thanks to Sudarshan Mukherjee for suggesting this feature.
 
 
-A note to those who create classes derived from IEEEtran.cls: Consider the
-use of patch code, either in an example .tex file or as a .sty file,
-rather than creating a new class. The IEEEtran.cls CLASSINPUT interface
-allows IEEEtran.cls to be fully programmable with respect to document
-margins, so there is no need for new class files just for altered margins.
-In this way, authors can benefit from updates to IEEEtran.cls and the need
-to maintain derivative classes and backport later IEEEtran.cls revisions
-thereto is avoided. As always, developers who create classes derived from
-IEEEtran.cls should use a different name for the derived class, so that it
-cannot be confused with the official/base version here, as well as provide
-authors with technical support for the derived class. It is generally a bad
-idea to produce a new class that is not going to be maintained.
+NOTE: Take care not to confuse the "comsoc" and "compsoc" class
+options/modes as they are very different:
+
+comsoc  ==> IEEE Communications Society
+compsoc ==> IEEE Computer Society
+
+The comsoc mode requires that an acceptable Times math font be available on
+the LaTeX system. This requirement will be enforced by IEEEtran in comsoc
+mode. Either the freely available newtxmath font by Michael Sharpe
+http://www.ctan.org/pkg/newtx
+(version 1.451, July 28, 2015 or later is recommended)
+or the commercial MathTime font (e.g., mtpro2.sty) is acceptable.
+See Section II-D (2.4) "Class Options - comsoc, compsoc, transmag" of
+the IEEEtran HOWTO for more details.
 
 
 Best wishes for all your publication endeavors,
 
 Michael Shell
 http://www.michaelshell.org/
-
-
-***************************** Subdirectories ******************************
-
-bibtex   - The IEEEtran BibTeX style package.
-
-extras   - Supplementary material that may be of interest.
-
-testflow - The testflow diagnostic suite for verifying PS/PDF output.
-
-tools    - The IEEEtrantools.sty package which provides several commands
-           from the IEEEtran.cls file for use with other LaTeX classes.
 
 
 ********************************** Files **********************************
@@ -97,17 +77,26 @@ changelog.txt          - The revision history.
 
 IEEEtran_HOWTO.pdf     - The IEEEtran LaTeX class user manual.
 
-bare_conf.tex          - A bare bones starter file for conference papers.
+bare_conf.tex          - A bare bones starter file for IEEE conference papers.
 
-bare_jrnl.tex          - A bare bones starter file for journal papers.
+bare_conf_compsoc.tex  - A bare bones starter file for IEEE Computer Society
+                         conference papers.
 
-bare_jrnl_compsoc.tex  - A bare bones starter file for Computer Society
+bare_jrnl.tex          - A bare bones starter file for IEEE journal papers.
+
+bare_jrnl_comsoc.tex   - A bare bones starter file for IEEE Communications
+                         Society journal papers.
+
+bare_jrnl_compsoc.tex  - A bare bones starter file for IEEE Computer Society
                          journal papers.
+
+bare_jrnl_transmag.tex - A bare bones starter file for IEEE Transactions
+                         on Magnetics journal papers.
 
 bare_adv.tex           - A bare bones starter file showing advanced
                          techniques such as conditional compilation,
                          hyperlinks, PDF thumbnails, etc. The illustrated
-                         format is for a Computer Society journal paper.
+                         format is for an IEEE Computer Society journal paper.
 
 ***************************************************************************
 Legal Notice:
@@ -115,7 +104,7 @@ This code is offered as-is without any warranty either expressed or
 implied; without even the implied warranty of MERCHANTABILITY or
 FITNESS FOR A PARTICULAR PURPOSE! 
 User assumes all risk.
-In no event shall IEEE or any contributor to this code be liable for
+In no event shall the IEEE or any contributor to this code be liable for
 any damages or losses, including, but not limited to, incidental,
 consequential, or any other damages, resulting from the use or misuse
 of any information contained here.
@@ -133,5 +122,7 @@ Retain all contribution notices and credits.
 ** renaming them and changing author support contact information. **
 
 File list of work: IEEEtran.cls, IEEEtran_HOWTO.pdf, bare_adv.tex,
-                   bare_conf.tex, bare_jrnl.tex, bare_jrnl_compsoc.tex
+                   bare_conf.tex, bare_conf_compsoc.tex, bare_jrnl.tex,
+                   bare_jrnl_comsoc.tex, bare_jrnl_compsoc.tex,
+                   bare_jrnl_transmag.tex
 ***************************************************************************

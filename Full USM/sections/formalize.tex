@@ -19,6 +19,19 @@
 \begin{definition} A transition $t \in T$ is an edge connecting two vertexes. A transition has a guard $guard(t)$, an effect $effect(t)$, and is associated with a set of events $\subset$ E. We write $events(t)$ as the associated set of events. A transition has a type $t.type$ $\in \{trigger, triggerless, guardless\}$ and a kind $t.kind \in {external, local, internal}$.
 \end{definition}
 
+\begin{definition} An event is one of the followings:
+	\begin{itemize}
+		\item A \ti{TimeEvent} $te$ specifies the time of occurrence $d$ relative to a starting time. The latter is specified when a state, which accepts the time event, is entered.
+		
+		\item A \ti{SignalEvent} $se$ is associated with a signal $sig$, whose data are described by its attributes and is occurred if $sig$ is received by a component, which is an active UML class.
+		
+		\item A \ti{ChangeEvent} $che$ is associated with a boolean expression $ex(che)$ written in $ActLang$. $che$ is emitted if $ex(che)$ changes from true (false) to false (true).
+		
+		\item A \ti{CallEvent} $ce$ is associated with an operation $op(ce)$. $ce$ is emitted if there is a call to $op(ce)$.
+	\end{itemize}
+\end{definition}
+
+\begin{comment}
 \begin{definition} A \ti{TimeEvent} $te$ an internal event and specifies the time of occurrence $d$ relative to a starting time. The latter is specified when a state, which accepts the time event, is entered. 
 \end{definition}
 
@@ -29,12 +42,13 @@
 \end{definition}	
 
 \begin{definition}
-	A \ti{ChangeEvent} $che$ is associated with a boolean expression $ex(che)$ written in $ActLang$. $che$ is emitted if $ex(che)$ changes from true(false) to false(true).
+	A \ti{ChangeEvent} $che$ is associated with a boolean expression $ex(che)$ written in $ActLang$. $che$ is emitted if $ex(che)$ changes from true (false) to false (true).
 \end{definition}
 
 \begin{definition}
 	A \ti{CallEvent} $ce$ is associated with an operation $op(ce)$. $ce$ is emitted if there is a call to $op(ce)$.
 \end{definition}
+\end{comment}
 
 Suppose that for each vertex \ti{v} $\in$ $V$, its incoming and outgoing transition lists are extracted by the functions $incomings$ and $outgoings$, respectively. For a list $l$, the function $head$ is used to get the first element of the list. If $v.kind = conc$, suppose $regions(v)$ is the region set contained by $v$. Given a transition t:
 \begin{itemize}
@@ -86,14 +100,17 @@ For each vertex $v$ $\in$ $V$, we write the following sets $T_{ins} (v) = incomi
 
 Similarly, $subvts^+(v)$ is a set of transitive sub-vertexes.
 
+\begin{comment}
 In the example in Fig. \ref{fig:example}, we have:
 \begin{IEEEeqnarray*}{lCr}	
 	ctner^+(Idle) = \{StateMachine\}, \\
 	ctner^+(Choice1) = \{Verifying, StateMachine\}.
 \end{IEEEeqnarray*}
+\end{comment}
 
-A state machine $sm = \{V, T\}$ associated with $E$ is validated if, for each $v \in V$, the constraints listed in Table \ref{table:constraint} are hold.
+A state machine $sm = \{V, T\}$ associated with $E$ is validated if, for each $v \in V$, the constraints listed in Table \ref{table:constraint} are hold. These are evaluated before the generation phase is taken into account. 
 
+\begin{comment}
 \begin{table*}
 	\caption{State machine constraints}
 	\label{table:constraint}
@@ -127,8 +144,7 @@ A state machine $sm = \{V, T\}$ associated with $E$ is validated if, for each $v
 	\tabitem If $v.kind = history$ then $ctner(v).kind \in \{comp, conc\} \wedge (if v.kind = comp$ then $\exists! v \in ctner(v).subvertexes | v.kind = history) \wedge \#T_{ins} > 0$. \\ \hline
 \end{tabular}
 \end{table*}	
-
-//should have some definition of compound transition
+\end{comment}
 
 \begin{comment}
 	\begin{itemize}

@@ -1,0 +1,44 @@
+Review #: 1	
+Criterium	Description	Value
+Abstract and Introduction are adequate?	 	Yes
+Conclusions/Future Work are convincing?	 	Yes
+Figures are adequate ?	in number and quality	No
+Improve critical discussion ?	validation	Yes
+Improve English?	 	No
+Needs comparative evaluation?	 	Yes
+Needs more experimental results?	 	No
+Originality	Newness of the ideas expressed	6
+Overall Rating	Weighted value of above items	6
+Paper formatting needs adjustment?	 	No
+Presentation	Structure/Length/English	6
+References are up-to-date and appropriate?	 	Yes
+Relevance	Paper fits one or more of the topic areas?	6
+Significance	Is the problem worth the given attention?	6
+Technical Quality	Theoretical soundness/methodology	6
+Scale: 1:Lowest Value;6:Highest Value
+
+Observations for Author
+This paper is very well written except for the minor points shown below. p. 2L proposed Section 5 -> proposed in Section 5 p. 2R to postponed -> to postpone They provides -> They provide Fig. 1 is too far away. Please draw another simple picture that just shows an example of entry point. p. 3L Portability, which is listed as one of the current issues, is not discussed. p. 3R and a state ID (...). -> and a state ID is assigned (...). The discussion of other object-oriented languages are -> is p. 4L doActivity -> italic each region two methods -> each region has two methods p. 4R transition, S3 is -> transition. Therefore, S3 is p. 5L An API... -> sentence confusing. p. 5R x/y -> x and y doActivity -> italic p. 7L with the standalone -> with the software (?) p. 8L RQ2 -> Research question 2 (or make Research question 1 RQ1) optimization options -O2 -s -> -s is not an optimization option. It just strips symbols. Comparison of executable size is not appropriate if shared libraries are used. Let's look closer... -> move this paragraph to 6.2.1 Performance section. p. 8R stack and heap usage -> not just stack and heap, but total memory usage of the processes should be measured and compared. In order to assess the usability and practicality.... -> Usability and practicality should be clearly discussed as a result of the traffic light simulation. p. 10L worthy noting -> worth noting p. 10R in even processing -> processing what?
+
+
+Review #: 2	
+Criterium	Description	Value
+Abstract and Introduction are adequate?	 	Yes
+Conclusions/Future Work are convincing?	 	No
+Figures are adequate ?	in number and quality	Yes
+Improve critical discussion ?	validation	Yes
+Improve English?	 	No
+Needs comparative evaluation?	 	Yes
+Needs more experimental results?	 	No
+Originality	Newness of the ideas expressed	2
+Overall Rating	Weighted value of above items	2
+Paper formatting needs adjustment?	 	No
+Presentation	Structure/Length/English	4
+References are up-to-date and appropriate?	 	Yes
+Relevance	Paper fits one or more of the topic areas?	5
+Significance	Is the problem worth the given attention?	2
+Technical Quality	Theoretical soundness/methodology	2
+Scale: 1:Lowest Value;6:Highest Value
+
+Observations for Author
+This paper proposes a method for generating complete and efficient code from UML state machine. The proposed approach supports concurrency and pseudo states. This paper is basically well-written and shows an empirical study on the semantic-conformance and efficiency of generated code. However, the precise contribution is unclear. The proposed approach is just a yet another tool implementation that can generate code from a state machine. Although this paper is easy to understand, it is difficult to find new ideas or concepts.

@@ -1,0 +1,180 @@
+\documentclass[a4paper,twoside]{article}
+
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{calc}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{multicol}
+\usepackage{pslatex}
+\usepackage{apalike}
+\usepackage{SCITEPRESS}     % Please add other packages that you may need BEFORE the SCITEPRESS.sty package.
+
+
+
+
+\subfigtopskip=0pt
+\subfigcapskip=0pt
+\subfigbottomskip=0pt
+\usepackage{filecontents}
+\usepackage{listings}
+\subfigtopskip=0pt
+\subfigcapskip=0pt
+\subfigbottomskip=0pt
+\usepackage{lipsum}
+\newcommand{\ti}{\textit}
+\newcommand{\tb}{\textbf}
+\newcommand{\tf}{\textsf}
+\newcommand{\ttt}{\textit}
+
+\usepackage{balance}
+
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\definecolor{BluishGray}{RGB}{226,227,231}
+\definecolor{LightGray}{gray}{0.95}
+\definecolor{Gray}{gray}{0.85}
+\usepackage{algorithm,xpatch}
+\usepackage[noend]{algpseudocode}
+\usepackage{comment}
+\newcommand*\DNA{\textsc{dna}}
+\usepackage{url}
+
+
+\usepackage[hyphenbreaks]{breakurl}
+
+
+
+
+
+
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+
+\usepackage{titlesec}
+\titlespacing{\section}{0pt}{1.5ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing{\subsection}{0pt}{1.5ex plus 0.2ex minus .2ex}{1.5ex plus 0.2ex minus .2ex}
+\titlespacing{\subsubsection}{20pt}{0.2\parskip}{-0.2\parskip}
+%\titlespacing{\paragraph}{20pt}{0.2\parskip}{-0.2\parskip}
+
+%to change to spacing between floats (figures) and text
+%\setlength{\textfloatsep}{5pt plus 1.0pt minus 2.0pt}
+
+\xpatchcmd{\algorithmic}{\setcounter}{\algorithmicfont\setcounter}{}{}
+\providecommand{\algorithmicfont}{}
+\providecommand{\setalgorithmicfont}[1]{\renewcommand{\algorithmicfont}{#1}}
+\renewcommand{\algorithmiccomment}[1]{{\tiny\hfill$\triangleright$ #1}}
+\setalgorithmicfont{\small}
+
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
+
+
+
+\usepackage{mdframed}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\lstset{ %
+	backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+	basicstyle=\scriptsize,        % the size of the fonts that are used for the code
+	lineskip={-5.5pt},
+	breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+	breaklines=true,                 % sets automatic line breaking
+	captionpos=t,                    % sets the caption-position to bottom
+	commentstyle=\color{mygreen},    % comment style
+	deletekeywords={...},            % if you want to delete keywords from the given language
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+	frame=single,	                   % adds a frame around the code
+	keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+	keywordstyle=\textbf,       % keyword style
+	language=Octave,                 % the language of the code
+	otherkeywords={*, shallow,history,final,transition,table,initial,machine,transition,choice,exit,point,entry...},           % if you want to add more keywords to the set
+	numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+	numbersep=5pt,                   % how far the line-numbers are from the code
+	numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+	rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+	showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+	showstringspaces=false,          % underline spaces within strings only
+	showtabs=false,                  % show tabs within strings adding particular underscores
+	stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+	frame=none,
+	xleftmargin=3.0ex,
+	stringstyle=\color{mymauve},     % string literal style
+	tabsize=2,	                   % sets default tabsize to 2 spaces
+	title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+
+\begin{document}
+	
+	\title{Complete Code Generation from UML State Machine }
+	
+	\author{\authorname{Van Cam Pham, Ansgar Radermacher, S\'ebastien G\'erard, Shuai Li}
+		\affiliation{CEA LIST, Saclay, France}
+		\email{\{first-name\}.\{last-name\}cea.fr}
+	}
+	
+	\keywords{UML State Machine, code generation, semantics-conformance, efficiency, events, C++}
+	
+	\abstract{An event-driven architecture is a useful way to design and implement complex systems. The UML State Machine and its visualizations are a powerful means to the modeling of the logical behavior of such an architecture. In Model Driven Engineering, executable code can be automatically generated from state machines. However, existing generation approaches and tools from UML State Machines are still limited to simple cases, especially when considering concurrency and pseudo states such as history, junction, and event types. 
+	This paper provides a pattern and tool for complete and efficient code generation approach from UML State Machine. It extends IF-ELSE-SWITCH constructions of programming languages with concurrency support. 
+	The code generated with our approach has been executed with a set of state-machine examples that are part of a test-suite described in the recent OMG standard Precise Semantics Of State Machine.
+	The traced execution results comply with the standard and are a good hint that the execution is semantically correct. 
+	The generated code is also efficient: it supports multi-thread-based concurrency, and the (static and dynamic) efficiency of generated code is improved compared to considered approaches.}
+	
+	\onecolumn \maketitle \normalsize \vfill
+	
+	
+	\input{sections/introduction}
+	
+	\input{sections/modeling}
+	
+	\input{sections/uniqueness}
+	%\input{sections/formalizerevised}
+	
+	\input{sections/concurrency}
+	
+	\input{sections/codegentex}
+	
+	%\input{sections/deepseparation}	
+	
+	\input{sections/experiment}
+	
+	\input{sections/casestudy}
+	
+	\input{sections/relatedwork}
+	
+	\input{sections/conclusion}
+	
+	
+	%\section*{\uppercase{Acknowledgements}}
+	%==removed for blind review==
+	
+	
+	\balance
+	\Urlmuskip=0mu plus 1mu\relax
+	{
+	\bibliographystyle{apalike}
+	\bibliography{refs}
+}
+	
+	%\section*{\uppercase{Appendix}}
+	
+	%\noindent If any, the appendix should appear directly after the
+	%references without numbering, and not on a new page. To do so please use the following command:
+	%\textit{$\backslash$section*\{APPENDIX\}}
+	
+	\vfill
+\end{document}

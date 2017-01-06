@@ -1,0 +1,1320 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.1)  5 JAN 2017 07:55
+entering extended mode
+**enase2017.tex
+(enase2017.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+(article.cls
+Document Class: article 2000/05/19 v1.4b Standard LaTeX document class
+(C:\Users\VP242103\Downloads\tex\latex\base\size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\Users\VP242103\Downloads\tex\latex\graphics\epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(C:\Users\VP242103\Downloads\tex\latex\graphics\graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\VP242103\Downloads\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(C:\Users\VP242103\Downloads\tex\latex\graphics\graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\VP242103\Downloads\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\Users\VP242103\Downloads\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(C:\Users\VP242103\Downloads\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(C:\Users\VP242103\Downloads\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(C:\Users\VP242103\Downloads\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(C:\Users\VP242103\Downloads\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen107
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen108
+\subfiglabelskip=\skip46
+\c@subfigure=\count88
+\c@lofdepth=\count89
+\c@subtable=\count90
+\c@lotdepth=\count91
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\VP242103\Downloads\tex\latex\subfigure\subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+(C:\Users\VP242103\Downloads\tex\latex\tools\calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen109
+\calc@Bdimen=\dimen110
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count94
+\calc@Cskip=\skip51
+)
+(C:\Users\VP242103\Downloads\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\VP242103\Downloads\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\VP242103\Downloads\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(C:\Users\VP242103\Downloads\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen111
+))
+(C:\Users\VP242103\Downloads\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\VP242103\Downloads\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
+)
+(C:\Users\VP242103\Downloads\tex\latex\amsmath\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks17
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks18
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks19
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(C:\Users\VP242103\Downloads\tex\latex\amscls\amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks26
+)
+(C:\Users\VP242103\Downloads\tex\latex\tools\multicol.sty
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
+\c@tracingmulticols=\count107
+\mult@box=\box28
+\multicol@leftmargin=\dimen120
+\c@unbalance=\count108
+\c@collectmore=\count109
+\doublecol@number=\count110
+\multicoltolerance=\count111
+\multicolpretolerance=\count112
+\full@width=\dimen121
+\page@free=\dimen122
+\premulticols=\dimen123
+\postmulticols=\dimen124
+\multicolsep=\skip58
+\multicolbaselineskip=\skip59
+\partial@page=\box29
+\last@line=\box30
+\maxbalancingoverflow=\dimen125
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count113
+\c@finalcolumnbadness=\count114
+\last@try=\dimen126
+\multicolovershoot=\dimen127
+\multicolundershoot=\dimen128
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\mc@col@check@num=\count115
+)
+(C:\Users\VP242103\Downloads\tex\latex\pslatex\pslatex.sty
+Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
+) (apalike.sty
+\bibhang=\skip60
+)
+(SCITEPRESS.sty
+Conference Style for SCITEPRESS for LaTeX 2e -- version of April 2015
+\titlebox=\skip61
+) (C:\Users\VP242103\Downloads\tex\latex\caption\caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(C:\Users\VP242103\Downloads\tex\latex\caption\caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen129
+\captionmargin@=\dimen130
+\captionwidth=\dimen131
+\caption@tempdima=\dimen132
+\caption@indent=\dimen133
+\caption@parindent=\dimen134
+\caption@hangindent=\dimen135
+)
+\c@ContinuedFloat=\count116
+Package caption Info: subfigure package is loaded.
+)
+(C:\Users\VP242103\Downloads\tex\latex\filecontents\filecontents.sty
+Package: filecontents 2011/10/08 v1.3 Create an external file from within a LaT
+eX document
+)
+(C:\Users\VP242103\Downloads\tex\latex\listings\listings.sty
+\lst@mode=\count117
+\lst@gtempboxa=\box54
+\lst@token=\toks27
+\lst@length=\count118
+\lst@currlwidth=\dimen136
+\lst@column=\count119
+\lst@pos=\count120
+\lst@lostspace=\dimen137
+\lst@width=\dimen138
+\lst@newlines=\count121
+\lst@lineno=\count122
+\lst@maxwidth=\dimen139
+
+(C:\Users\VP242103\Downloads\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count123
+\lst@skipnumbers=\count124
+\lst@framebox=\box55
+)
+(C:\Users\VP242103\Downloads\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(C:\Users\VP242103\Downloads\tex\latex\lipsum\lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count125
+)
+(C:\Users\VP242103\Downloads\tex\latex\preprint\balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen140
+)
+(C:\Users\VP242103\Downloads\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen141
+)
+(C:\Users\VP242103\Downloads\tex\latex\graphics\color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(C:\Users\VP242103\Downloads\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+)
+(C:\Users\VP242103\Downloads\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(C:\Users\VP242103\Downloads\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(C:\Users\VP242103\Downloads\tex\latex\colortbl\colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(C:\Users\VP242103\Downloads\tex\latex\tools\array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen142
+\extrarowheight=\dimen143
+\NC@list=\toks28
+\extratabsurround=\skip62
+\backup@length=\skip63
+)
+\everycr=\toks29
+\minrowclearance=\skip64
+)
+(C:\Users\VP242103\Downloads\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(C:\Users\VP242103\Downloads\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count126
+\float@exts=\toks30
+\float@box=\box56
+\@float@everytoks=\toks31
+\@floatcapt=\box57
+)
+(C:\Users\VP242103\Downloads\tex\latex\base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks32
+\c@algorithm=\count127
+)
+(C:\Users\VP242103\Downloads\tex\latex\xpatch\xpatch.sty
+(C:\Users\VP242103\Downloads\tex\latex\l3kernel\expl3.sty
+Package: expl3 2016/01/19 v6377 L3 programming layer (loader) 
+
+(C:\Users\VP242103\Downloads\tex\latex\l3kernel\expl3-code.tex
+Package: expl3 2016/01/19 v6377 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/01/01 v6339 L3 Bootstrap code
+L3 Module: l3names 2015/12/21 v6328 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
+L3 Module: l3str 2016/01/03 v6357 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/01/05 v6366 L3 Integers
+\c_max_int=\count128
+\l_tmpa_int=\count129
+\l_tmpb_int=\count130
+\g_tmpa_int=\count131
+\g_tmpb_int=\count132
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count133
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2015/09/28 v6113 L3 Messages
+L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
+\l_iow_line_count_int=\count134
+\l__iow_target_count_int=\count135
+\l__iow_current_line_int=\count136
+\l__iow_current_word_int=\count137
+\l__iow_current_indentation_int=\count138
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen144
+\c_max_dim=\dimen145
+\l_tmpa_dim=\dimen146
+\l_tmpb_dim=\dimen147
+\g_tmpa_dim=\dimen148
+\g_tmpb_dim=\dimen149
+\c_zero_skip=\skip65
+\c_max_skip=\skip66
+\l_tmpa_skip=\skip67
+\l_tmpb_skip=\skip68
+\g_tmpa_skip=\skip69
+\g_tmpb_skip=\skip70
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count139
+\l_keys_choice_int=\count140
+L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
+\c__fp_leading_shift_int=\count141
+\c__fp_middle_shift_int=\count142
+\c__fp_trailing_shift_int=\count143
+\c__fp_big_leading_shift_int=\count144
+\c__fp_big_middle_shift_int=\count145
+\c__fp_big_trailing_shift_int=\count146
+\c__fp_Bigg_leading_shift_int=\count147
+\c__fp_Bigg_middle_shift_int=\count148
+\c__fp_Bigg_trailing_shift_int=\count149
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box58
+\l_tmpa_box=\box59
+\l_tmpb_box=\box60
+\g_tmpa_box=\box61
+\g_tmpb_box=\box62
+L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
+\l__coffin_internal_box=\box63
+\l__coffin_internal_dim=\dimen150
+\l__coffin_offset_x_dim=\dimen151
+\l__coffin_offset_y_dim=\dimen152
+\l__coffin_x_dim=\dimen153
+\l__coffin_y_dim=\dimen154
+\l__coffin_x_prime_dim=\dimen155
+\l__coffin_y_prime_dim=\dimen156
+\c_empty_coffin=\box64
+\l__coffin_aligned_coffin=\box65
+\l__coffin_aligned_internal_coffin=\box66
+\l_tmpa_coffin=\box67
+\l_tmpb_coffin=\box68
+\l__coffin_display_coffin=\box69
+\l__coffin_display_coord_coffin=\box70
+\l__coffin_display_pole_coffin=\box71
+\l__coffin_display_offset_dim=\dimen157
+\l__coffin_display_x_dim=\dimen158
+\l__coffin_display_y_dim=\dimen159
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen160
+\l__box_bottom_dim=\dimen161
+\l__box_left_dim=\dimen162
+\l__box_right_dim=\dimen163
+\l__box_top_new_dim=\dimen164
+\l__box_bottom_new_dim=\dimen165
+\l__box_left_new_dim=\dimen166
+\l__box_right_new_dim=\dimen167
+\l__box_internal_box=\box72
+\l__coffin_bounding_shift_dim=\dimen168
+\l__coffin_left_corner_dim=\dimen169
+\l__coffin_right_corner_dim=\dimen170
+\l__coffin_bottom_corner_dim=\dimen171
+\l__coffin_top_corner_dim=\dimen172
+\l__coffin_scaled_total_height_dim=\dimen173
+\l__coffin_scaled_width_dim=\dimen174
+L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
+)
+(C:\Users\VP242103\Downloads\tex\latex\l3kernel\l3pdfmode.def
+File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count150
+))
+Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
+
+(C:\Users\VP242103\Downloads\tex\latex\l3packages\xparse\xparse.sty
+Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count151
+\l__xparse_m_args_int=\count152
+\l__xparse_mandatory_args_int=\count153
+\l__xparse_processor_int=\count154
+\l__xparse_v_nesting_int=\count155
+)
+(C:\Users\VP242103\Downloads\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count156
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchcmd with sig. '' on line 125.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretocmd with sig. '' on line 126.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptocmd with sig. '' on line 127.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowcmd with sig. '' on line 128.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibmacro with sig. 'm' on line 131.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibmacro with sig. 'm' on line 133.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibmacro with sig. 'm' on line 135.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibmacro with sig. 'm' on line 137.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchfieldformat with sig. 'O{*}m' on line 139.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretofieldformat with sig. 'O{*}m' on line 141.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptofieldformat with sig. 'O{*}m' on line 143.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowfieldformat with sig. 'O{*}m' on line 145.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchnameformat with sig. 'O{*}m' on line 147.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretonameformat with sig. 'O{*}m' on line 149.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptonameformat with sig. 'O{*}m' on line 151.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshownameformat with sig. 'O{*}m' on line 153.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchlistformat with sig. 'O{*}m' on line 155.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretolistformat with sig. 'O{*}m' on line 157.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptolistformat with sig. 'O{*}m' on line 159.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowlistformat with sig. 'O{*}m' on line 161.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexfieldformat with sig. 'O{*}m' on line 163.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexfieldformat with sig. 'O{*}m' on line 165.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexfieldformat with sig. 'O{*}m' on line 167.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexfieldformat with sig. 'O{*}m' on line 169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexnameformat with sig. 'O{*}m' on line 171.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexnameformat with sig. 'O{*}m' on line 173.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexnameformat with sig. 'O{*}m' on line 175.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexnameformat with sig. 'O{*}m' on line 177.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexlistformat with sig. 'O{*}m' on line 179.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexlistformat with sig. 'O{*}m' on line 181.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xappindextolistformat with sig. 'O{*}m' on line 183.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexlistformat with sig. 'O{*}m' on line 185.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibdriver with sig. 'm' on line 187.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibdriver with sig. 'm' on line 189.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibdriver with sig. 'm' on line 191.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibdriver with sig. 'm' on line 193.
+.................................................
+)
+(C:\Users\VP242103\Downloads\tex\latex\algorithmicx\algpseudocode.sty
+Package: algpseudocode 
+
+(C:\Users\VP242103\Downloads\tex\latex\algorithmicx\algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count157
+\c@ALG@rem=\count158
+\c@ALG@nested=\count159
+\ALG@tlm=\skip71
+\ALG@thistlm=\skip72
+\c@ALG@Lnr=\count160
+\c@ALG@blocknr=\count161
+\c@ALG@storecount=\count162
+\c@ALG@tmpcounter=\count163
+\ALG@tmplength=\skip73
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\Users\VP242103\Downloads\tex\latex\comment\comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment') (C:\Users\VP242103\Downloads\tex\latex\url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (C:\Users\VP242103\Downloads\tex\latex\breakurl\breakurl.sty
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+
+(C:\Users\VP242103\Downloads\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(C:\Users\VP242103\Downloads\tex\generic\xkeyval\xkeyval.tex
+(C:\Users\VP242103\Downloads\tex\generic\xkeyval\xkvutils.tex
+\XKV@toks=\toks33
+\XKV@tempa@toks=\toks34
+)
+\XKV@depth=\count164
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\VP242103\Downloads\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+
+Package breakurl Warning: You are using breakurl while processing via pdflatex.
+
+(breakurl)                \burl will be just a synonym of \url.
+(breakurl)                 on input line 48.
+
+)
+\c@definition=\count165
+ (C:\Users\VP242103\Downloads\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box73
+\beforetitleunit=\skip74
+\aftertitleunit=\skip75
+\ttl@plus=\dimen175
+\ttl@minus=\dimen176
+\ttl@toksa=\toks35
+\titlewidth=\dimen177
+\titlewidthlast=\dimen178
+\titlewidthfirst=\dimen179
+)
+(C:\Users\VP242103\Downloads\tex\latex\mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(C:\Users\VP242103\Downloads\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(C:\Users\VP242103\Downloads\tex\generic\oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(C:\Users\VP242103\Downloads\tex\generic\oberdiek\etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(C:\Users\VP242103\Downloads\tex\generic\oberdiek\ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(C:\Users\VP242103\Downloads\tex\latex\oberdiek\zref-abspage.sty
+Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+
+(C:\Users\VP242103\Downloads\tex\latex\oberdiek\zref-base.sty
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+
+(C:\Users\VP242103\Downloads\tex\generic\oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)
+(C:\Users\VP242103\Downloads\tex\generic\oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\VP242103\Downloads\tex\latex\oberdiek\auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+(C:\Users\VP242103\Downloads\tex\generic\oberdiek\atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+)
+\c@abspage=\count166
+Package zref Info: New property: abspage on input line 62.
+)
+(C:\Users\VP242103\Downloads\tex\latex\needspace\needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip76
+\c@mdf@globalstyle@cnt=\count167
+\mdf@skipabove@length=\skip77
+\mdf@skipbelow@length=\skip78
+\mdf@leftmargin@length=\skip79
+\mdf@rightmargin@length=\skip80
+\mdf@innerleftmargin@length=\skip81
+\mdf@innerrightmargin@length=\skip82
+\mdf@innertopmargin@length=\skip83
+\mdf@innerbottommargin@length=\skip84
+\mdf@splittopskip@length=\skip85
+\mdf@splitbottomskip@length=\skip86
+\mdf@outermargin@length=\skip87
+\mdf@innermargin@length=\skip88
+\mdf@linewidth@length=\skip89
+\mdf@innerlinewidth@length=\skip90
+\mdf@middlelinewidth@length=\skip91
+\mdf@outerlinewidth@length=\skip92
+\mdf@roundcorner@length=\skip93
+\mdf@footenotedistance@length=\skip94
+\mdf@userdefinedwidth@length=\skip95
+\mdf@needspace@length=\skip96
+\mdf@frametitleaboveskip@length=\skip97
+\mdf@frametitlebelowskip@length=\skip98
+\mdf@frametitlerulewidth@length=\skip99
+\mdf@frametitleleftmargin@length=\skip100
+\mdf@frametitlerightmargin@length=\skip101
+\mdf@shadowsize@length=\skip102
+\mdf@extratopheight@length=\skip103
+\mdf@subtitleabovelinewidth@length=\skip104
+\mdf@subtitlebelowlinewidth@length=\skip105
+\mdf@subtitleaboveskip@length=\skip106
+\mdf@subtitlebelowskip@length=\skip107
+\mdf@subtitleinneraboveskip@length=\skip108
+\mdf@subtitleinnerbelowskip@length=\skip109
+\mdf@subsubtitleabovelinewidth@length=\skip110
+\mdf@subsubtitlebelowlinewidth@length=\skip111
+\mdf@subsubtitleaboveskip@length=\skip112
+\mdf@subsubtitlebelowskip@length=\skip113
+\mdf@subsubtitleinneraboveskip@length=\skip114
+\mdf@subsubtitleinnerbelowskip@length=\skip115
+
+(C:\Users\VP242103\Downloads\tex\latex\mdframed\md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box74
+\mdf@footnotebox=\box75
+\mdf@splitbox@one=\box76
+\mdf@splitbox@two=\box77
+\mdf@splitbox@save=\box78
+\mdfsplitboxwidth=\skip116
+\mdfsplitboxtotalwidth=\skip117
+\mdfsplitboxheight=\skip118
+\mdfsplitboxdepth=\skip119
+\mdfsplitboxtotalheight=\skip120
+\mdfframetitleboxwidth=\skip121
+\mdfframetitleboxtotalwidth=\skip122
+\mdfframetitleboxheight=\skip123
+\mdfframetitleboxdepth=\skip124
+\mdfframetitleboxtotalheight=\skip125
+\mdffootnoteboxwidth=\skip126
+\mdffootnoteboxtotalwidth=\skip127
+\mdffootnoteboxheight=\skip128
+\mdffootnoteboxdepth=\skip129
+\mdffootnoteboxtotalheight=\skip130
+\mdftotallinewidth=\skip131
+\mdfboundingboxwidth=\skip132
+\mdfboundingboxtotalwidth=\skip133
+\mdfboundingboxheight=\skip134
+\mdfboundingboxdepth=\skip135
+\mdfboundingboxtotalheight=\skip136
+\mdf@freevspace@length=\skip137
+\mdf@horizontalwidthofbox@length=\skip138
+\mdf@verticalmarginwhole@length=\skip139
+\mdf@horizontalspaceofbox=\skip140
+\mdfsubtitleheight=\skip141
+\mdfsubsubtitleheight=\skip142
+\c@mdfcountframes=\count168
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
+.................................................
+\mdf@envdepth=\count169
+\c@mdf@env@i=\count170
+\c@mdf@env@ii=\count171
+\c@mdf@zref@counter=\count172
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(C:\Users\VP242103\Downloads\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) (enase2017.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 120.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 12
+0.
+
+(C:\Users\VP242103\Downloads\tex\latex\psnfss\omspzccm.fd
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+
+(C:\Users\VP242103\Downloads\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count173
+\scratchdimen=\dimen180
+\scratchbox=\box79
+\nofMPsegments=\count174
+\nofMParguments=\count175
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count176
+\MPscratchDim=\dimen181
+\MPnumerator=\count177
+\makeMPintoPDFobject=\count178
+\everyMPtoPDFconversion=\toks37
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count179
+\AtBeginShipoutBox=\box80
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 137.
+LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <9> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 137.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+
+ []
+
+(sections/introduction.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+
+Underfull \vbox (badness 4792) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 47--50
+\OT1/ptm/b/n/10 Efficiency: \OT1/ptm/m/n/10 Code gen-er-ated from tools such as
+
+ []
+
+[1{C:/Users/VP242103/Downloads/pdftex/config/pdftex.map}
+
+
+
+
+])
+(sections/modeling.tex) (sections/uniqueness.tex [2]
+Underfull \hbox (badness 1221) in paragraph at lines 43--46
+\OT1/ptm/b/n/10 Efficiency: \OT1/ptm/m/n/10 We con-ducted ex-per-i-ments on som
+e
+ []
+
+) (sections/concurrency.tex Excluding 'comment' comment.
+Excluding 'comment' comment. Excluding 'comment' comment.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 160.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 173.
+
+
+Excluding 'comment' comment. Excluding 'comment' comment.)
+(sections/codegentex.tex
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 16
+.
+
+(C:\Users\VP242103\Downloads\tex\latex\psnfss\ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 16
+.
+
+(C:\Users\VP242103\Downloads\tex\latex\psnfss\omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 16
+.
+
+(C:\Users\VP242103\Downloads\tex\latex\psnfss\omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+
+(C:\Users\VP242103\Downloads\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+
+(C:\Users\VP242103\Downloads\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+ [3]
+(C:\Users\VP242103\Downloads\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(C:\Users\VP242103\Downloads\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(C:\Users\VP242103\Downloads\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 36.
+
+Excluding 'comment' comment. Excluding 'comment' comment.
+
+Package Listings Warning: Text dropped after begin of listing on input line 106
+.
+
+<figures/EnteringStateExample.pdf, id=15, 572.1375pt x 182.6825pt>
+File: figures/EnteringStateExample.pdf Graphic file (type pdf)
+
+<use figures/EnteringStateExample.pdf>
+Package pdftex.def Info: figures/EnteringStateExample.pdf used on input line 13
+3.
+(pdftex.def)             Requested size: 247.55765pt x 75.62386pt.
+
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 131--134
+ []|  [] 
+ []
+
+[4 <./figures/EnteringStateExample.pdf>] Excluding 'comment' comment.
+Excluding 'comment' comment.
+Underfull \hbox (badness 1092) in paragraph at lines 300--306
+\OT1/ptm/m/n/10 and de-ferred events, guard check-ing, and tran-si-
+ []
+
+[5]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 307.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 313.
+Excluding 'comment' comment.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 372.
+
+Excluding 'comment' comment. Excluding 'comment' comment.
+Excluding 'comment' comment. Excluding 'comment' comment.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 602.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 614.
+
+
+(C:\Users\VP242103\Downloads\tex\latex\psnfss\omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <7> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 614.
+ [6]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 635.
+
+
+Overfull \hbox (5.99648pt too wide) in paragraph at lines 642--642
+[]|\OT1/ptm/m/n/7 Pseudo
+ []
+
+
+Overfull \hbox (4.04343pt too wide) in paragraph at lines 645--645
+[]|\OT1/ptm/m/n/7 choice| 
+ []
+
+
+Overfull \hbox (8.71936pt too wide) in paragraph at lines 646--646
+[]|\OT1/ptm/m/n/7 junction| 
+ []
+
+
+Overfull \hbox (7.37534pt too wide) in paragraph at lines 648--648
+[]|[]| 
+ []
+
+
+Overfull \hbox (5.21938pt too wide) in paragraph at lines 652--652
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 656--656
+[]|\OT1/ptm/m/n/7 exit
+ []
+
+
+Overfull \hbox (12.21216pt too wide) in paragraph at lines 657--657
+[]|\OT1/ptm/m/n/7 terminate| 
+ []
+
+
+Overfull \hbox (18.69075pt too wide) in paragraph at lines 640--659
+ [][] 
+ []
+
+Excluding 'comment' comment.) (sections/experiment.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package mdframed Info: mdframed works in twoside mode on input line 15.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 15.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 17.
+
+<figures/semanticconformance.pdf, id=63, 963.6pt x 542.025pt>
+File: figures/semanticconformance.pdf Graphic file (type pdf)
+
+<use figures/semanticconformance.pdf>
+Package pdftex.def Info: figures/semanticconformance.pdf used on input line 58.
+
+(pdftex.def)             Requested size: 213.41443pt x 44.65448pt.
+ Excluding 'comment' comment. [7]
+(sections/benchmark.tex
+Package mdframed Info: mdframed works in twoside mode on input line 11.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 11.
+
+Underfull \hbox (badness 1082) in paragraph at lines 13--16
+[]\OT1/ptm/b/it/9 Research ques-tion 2: \OT1/ptm/m/it/9 Run-time per-for-mance 
+and
+ []
+
+Excluding 'comment' comment. Excluding 'comment' comment.
+Excluding 'comment' comment.
+<experiments/box-plot-mine.pdf, id=70, 614.295pt x 794.97pt>
+File: experiments/box-plot-mine.pdf Graphic file (type pdf)
+
+<use experiments/box-plot-mine.pdf>
+Package pdftex.def Info: experiments/box-plot-mine.pdf used on input line 121.
+(pdftex.def)             Requested size: 213.41443pt x 115.64233pt.
+ Excluding 'comment' comment.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 162.
+
+Excluding 'comment' comment.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 190.
+
+<experiments/comparepercentage.pdf, id=72, 963.6pt x 542.025pt>
+File: experiments/comparepercentage.pdf Graphic file (type pdf)
+
+<use experiments/comparepercentage.pdf>
+Package pdftex.def Info: experiments/comparepercentage.pdf used on input line 2
+04.
+(pdftex.def)             Requested size: 213.41443pt x 115.27841pt.
+)) (sections/casestudy.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./figures/semanticconformance.pdf> <./experiments/box-plot-mine.pdf>]
+(sections/tlc.tex <figures/casestudy.pdf, id=184, 963.6pt x 542.025pt>
+File: figures/casestudy.pdf Graphic file (type pdf)
+
+<use figures/casestudy.pdf>
+Package pdftex.def Info: figures/casestudy.pdf used on input line 16.
+(pdftex.def)             Requested size: 213.41443pt x 45.32158pt.
+
+<figures/casestudystatemachine.pdf, id=186, 963.6pt x 542.025pt>
+File: figures/casestudystatemachine.pdf Graphic file (type pdf)
+
+<use figures/casestudystatemachine.pdf>
+Package pdftex.def Info: figures/casestudystatemachine.pdf used on input line 3
+3.
+(pdftex.def)             Requested size: 213.41443pt x 50.31793pt.
+
+<figures/highwayopenalternativesoptimized.pdf, id=188, 963.6pt x 542.025pt>
+File: figures/highwayopenalternativesoptimized.pdf Graphic file (type pdf)
+
+<use figures/highwayopenalternativesoptimized.pdf>
+Package pdftex.def Info: figures/highwayopenalternativesoptimized.pdf used on i
+nput line 61.
+(pdftex.def)             Requested size: 149.38943pt x 95.85771pt.
+ [9 <./experiments/comparepercentage.pdf> <./figures/casestudy.pdf> <./figures/
+casestudystatemachine.pdf>]
+Excluding 'comment' comment.)) (sections/relatedwork.tex)
+(sections/conclusion.tex
+Underfull \hbox (badness 1163) in paragraph at lines 3--7
+\OT1/ptm/m/n/10 gen-er-a-tion pat-tern ex-tends the IF-ELSE/SWITCH
+ []
+
+[10 <./figures/highwayopenalternativesoptimized.pdf>]) (enase2017.bbl
+Underfull \hbox (badness 1661) in paragraph at lines 4--9
+[]\OT1/ptm/m/n/10 Badreddin, O., Leth-bridge, T. C., For-ward, A.,
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 11--15
+[]\OT1/ptm/m/n/10 Badreddin, O., Leth-bridge, T. C., For-ward, A.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
+[]\OT1/ptm/m/n/10 Boost Li-brary (2016a).  Boost C++.
+ []
+
+
+Underfull \hbox (badness 6944) in paragraph at lines 32--36
+\OT1/ptm/m/n/10 http://www.boost.org/.  [On-line; ac-cessed
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 78--83
+\OT1/ptm/m/n/10 sur-vey of soft-ware prac-ti-tion-ers.  In \OT1/ptm/m/it/10 in 
+5th
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 121--124
+$\OT1/pcr/m/n/10 wiki . eclipse . org / Papyrus \ _Software \$
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 126--130
+$\OT1/pcr/m/n/10 nomagic . com / products / magicdraw . html$\OT1/ptm/m/n/10 .
+ []
+
+[11]
+Underfull \hbox (badness 4647) in paragraph at lines 168--172
+[]\OT1/ptm/m/n/10 Quantum Leaps (2016).  Quan-tum Mod-el-ing.
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 168--172
+\OT1/ptm/m/n/10 http://www.state-machine.com/qm/.  [On-line;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--183
+[]\OT1/ptm/m/n/10 SparxSysems (2016).  En-ter-prise Ar-chi-tect.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--183
+\OT1/ptm/m/n/10 http://www.sparxsystems.com/products/ea/.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--189
+[]\OT1/ptm/m/n/10 SparxSystems (2016).  En-ter-prise Ar-chi-tect.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
+[]\OT1/ptm/m/n/10 Valgrind (2016).  Val-grind Mas-sif.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
+\OT1/ptm/m/n/10 http://valgrind.org/docs/manual/ms-
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 214--218
+\OT1/ptm/m/n/10 http://yasmine.seadex.de/yasmine.html.  [On-
+ []
+
+) [12] (enase2017.aux) ) 
+Here is how much of TeX's memory you used:
+ 16471 strings out of 493673
+ 279726 string characters out of 3144029
+ 599212 words of memory out of 3000000
+ 19528 multiletter control sequences out of 15000+200000
+ 56051 words of font info for 112 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 49i,18n,99p,10418b,1665s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/VP242103/Downloads/fonts/enc/dvips/fontname/8
+r.enc}<C:/Users/VP242103/Downloads/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Users/VP242103/Downloads/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/V
+P242103/Downloads/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/VP242103/D
+ownloads/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/VP242103/Downloads
+/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/VP242103/Downloads/fonts/type1/ur
+w/times/utmb8a.pfb><C:/Users/VP242103/Downloads/fonts/type1/urw/times/utmbi8a.p
+fb><C:/Users/VP242103/Downloads/fonts/type1/urw/times/utmr8a.pfb><C:/Users/VP24
+2103/Downloads/fonts/type1/urw/times/utmri8a.pfb>
+Output written on enase2017.pdf (12 pages, 914107 bytes).
+PDF statistics:
+ 274 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+

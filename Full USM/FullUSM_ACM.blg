@@ -1,0 +1,30 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: FullUSM_ACM.aux
+The style file: abbrv.bst
+Database file #1: refs.bib
+Repeated entry---line 1480 of file refs.bib
+ : @misc{moka
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2757 of file refs.bib
+ : @article{OMG2015
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2981 of file refs.bib
+ : @article{Mussbacher2014
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3133 of file refs.bib
+ : @electronic{OMG
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in moka
+Warning--to sort, need author or key in benchmark
+Warning--to sort, need author or key in EUML
+Warning--to sort, need author or key in Massif
+Warning--empty publisher in Booch1998
+Warning--empty publisher in Douglass1999
+Warning--empty journal in Knapp2004
+Warning--empty journal in OMG2015
+Warning--there's a number but no volume in OMG2015
+Warning--can't use both author and editor fields in Pilitowski2007
+(There were 4 error messages)

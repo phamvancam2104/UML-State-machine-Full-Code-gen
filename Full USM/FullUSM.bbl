@@ -21,17 +21,13 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{Li2015}
-S.~Li, L.~D. Xu, and S.~Zhao, ``{The internet of things: a survey},''
-  \emph{Information Systems Frontiers}, vol.~17, no.~2, pp. 243--259, 2015.
-
-\bibitem{Michelson2006}
-B.~M. Michelson, ``{Event-driven architecture overview},'' \emph{Patricia
-  Seybold Group}, vol.~2, 2006.
-
 \bibitem{specification_uml_2007}
 O.~M.~G. Specification, ``{UML} specification,'' \emph{Object Management Group
   pct/07-08-04}, 2007.
+
+\bibitem{omg}
+OMG, ``{Object} {Management} {Groups},'' \url{http://www.omg.org/}, 2016,
+  [Online; accessed 04-July-2016].
 
 \bibitem{Mussbacher2014}
 G.~Mussbacher, D.~Amyot, R.~Breu, J.-m. Bruel, B.~H.~C. Cheng, P.~Collet,
@@ -40,14 +36,68 @@ G.~Mussbacher, D.~Amyot, R.~Breu, J.-m. Bruel, B.~H.~C. Cheng, P.~Collet,
   from Now},'' \emph{ACM/IEEE 17th International Conference on Model Driven
   Engineering Languages and Systems (MODELS)}, pp. 183--200, 2014.
 
+\bibitem{ibmdiff}
+IBM, ``{IBM} {Rhapshody} {and} {UML} {differences},''
+  \url{http://www-01.ibm.com/support/docview.wss?uid=swg27040251}, 2016,
+  [Online; accessed 04-July-2016].
+
+\bibitem{EA}
+SparxSysemx, ``{Enterprise} {Architect},''
+  \url{http://www.sparxsystems.com/products/ea/}, 2016, [Online; accessed
+  14-Mar-2016].
+
+\bibitem{sinelabore}
+\BIBentryALTinterwordspacing
+{SinelaboreRT}, ``{Sinelabore} {Manual},''
+  \url{http://www.sinelabore.com/lib/exe/fetch.php?media=wiki:downloads:sinelaborert.pdf}.
+  [Online]. Available:
+  \url{http://www.sinelabore.com/lib/exe/fetch.php?media=wiki:downloads:sinelaborert.pdf}
+\BIBentrySTDinterwordspacing
+
 \bibitem{ibm_rhapsody}
 \BIBentryALTinterwordspacing
 IBM, ``\BIBforeignlanguage{en}{Ibm {Rhapsody}}.'' [Online]. Available:
   \url{http://www.ibm.com/developerworks/downloads/r/rhapsodydeveloper/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Pilitowski2007}
+\BIBentryALTinterwordspacing
+R.~Pilitowski and A.~Derezi{\~{n}}ska, \emph{Code Generation and Execution
+  Framework for UML 2.0 Classes and State Machines}.\hskip 1em plus 0.5em minus
+  0.4em\relax Dordrecht: Springer Netherlands, 2007, pp. 421--427. [Online].
+  Available: \url{http://dx.doi.org/10.1007/978-1-4020-6268-1_75}
+\BIBentrySTDinterwordspacing
+
 \bibitem{OMG2015}
 OMG, ``{Precise Semantics Of UML Composite Structures},'' no. October, 2015.
+
+\bibitem{niaz_mapping_2004}
+\BIBentryALTinterwordspacing
+I.~A. Niaz, J.~Tanaka, and {others}, ``Mapping {UML} statecharts to java
+  code.'' in \emph{{IASTED} {Conf}. on {Software} {Engineering}}, 2004, pp.
+  111--116. [Online]. Available:
+  \url{http://www.actapress.com/PDFViewer.aspx?paperId=16433}
+\BIBentrySTDinterwordspacing
+
+\bibitem{balser2004interactive}
+M.~Balser, S.~B{\"a}umler, A.~Knapp, W.~Reif, and A.~Thums, ``Interactive
+  verification of uml state machines,'' in \emph{International Conference on
+  Formal Engineering Methods}.\hskip 1em plus 0.5em minus 0.4em\relax Springer,
+  2004, pp. 434--448.
+
+\bibitem{Knapp2004}
+\BIBentryALTinterwordspacing
+A.~Knapp, ``{Semantics of UML State Machines},'' 2004. [Online]. Available:
+  \url{http://www.pst.ifi.lmu.de/veroeffentlichungen/TR0408.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{qompass}
+Qompass, ``{Qompass},'' \url{https://wiki.eclipse.org/Papyrus_Qompass}, 2015,
+  [Online; accessed 01-Sept-2015].
+
+\bibitem{cea-list_papyrus_????}
+CEA-List, ``{Papyrus} {Homepage} {Website},''
+  \url{https://eclipse.org/papyrus/}.
 
 \bibitem{moka}
 \BIBentryALTinterwordspacing
@@ -59,6 +109,62 @@ OMG, ``{Precise Semantics Of UML Composite Structures},'' no. October, 2015.
 J.~O. Blech and S.~Glesner, ``{Formal verification of java code generation from
   uml models},'' in \emph{{\ldots} of the 3rd International Fujaba Days}, 2005,
   pp. 49--56.
+
+\bibitem{boost}
+boost, ``{Boost} {C++},'' \url{http://www.boost.org/}, 2016, [Online; accessed
+  04-July-2016].
+
+\bibitem{benchmark}
+\BIBentryALTinterwordspacing
+``{State} {Machine} {Benchmark}.'' [Online]. Available:
+  \url{http://boost-experimental.github.io/msm-lite/benchmarks/index.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{simpleexample}
+{Boost}, ``{Simple} {CDPlayer} {Example},''
+  \url{http://www.boost.org/doc/libs/1_45_0/libs/msm/doc/HTML/ch03s02.html#d0e424},
+  2016, [Online; accessed 14-May-2016].
+
+\bibitem{compositeexample}
+------, ``{Composite} {CDPlayer} {Example},''
+  \url{http://www.boost.org/doc/libs/1_45_0/libs/msm/doc/HTML/ch03s02.html#d0e554},
+  2016, [Online; accessed 14-May-2016].
+
+\bibitem{Magicdraw}
+N.~{Magic}, ``{Magic} {Draw},''
+  \url{https://www.nomagic.com/products/magicdraw.html}, 2016, [Online;
+  accessed 14-Mar-2016].
+
+\bibitem{QM}
+QM, ``Qm,'' \url{http://www.state-machine.com/qm/}, 2016, [Online; accessed
+  14-May-2016].
+
+\bibitem{Statechart}
+B.~{Library}, ``{The} {Boost} {Statechart} {Library},''
+  \url{http://www.boost.org/doc/libs/1_61_0/libs/statechart/doc/index.html},
+  2016, [Online; accessed 04-July-2016].
+
+\bibitem{MSM}
+MSM, ``{Meta} {State} {Machine},''
+  \url{http://www.boost.org/doc/libs/1_59_0_b1/libs/msm/doc/HTML/index.html},
+  2016, [Online; accessed 04-July-2016].
+
+\bibitem{EUML}
+\BIBentryALTinterwordspacing
+``{State} {Machine} {Benchmark}.'' [Online]. Available:
+  \url{http://www.boost.org/doc/libs/1_61_0/libs/msm/doc/HTML/ch03s04.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Massif}
+\BIBentryALTinterwordspacing
+``{Valgrind} {Massif}.'' [Online]. Available:
+  \url{http://valgrind.org/docs/manual/ms-manual.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Domnguez2012}
+E.~Dom\'{i}nguez, B.~P\'{e}rez, A.~L. Rubio, and M.~A. Zapata, ``{A systematic
+  review of code generation proposals from state machine specifications},'' pp.
+  1045--1066, 2012.
 
 \bibitem{Booch1998}
 \BIBentryALTinterwordspacing
@@ -75,28 +181,15 @@ B.~P. Douglass, \emph{{Real-time UML : developing efficient objects for
 A.~Shalyto and N.~Shamgunov, ``{State machine design pattern},'' \emph{Proc. of
   the 4th International Conference on.NET Technologies}, 2006.
 
-\bibitem{niaz_mapping_2004}
-\BIBentryALTinterwordspacing
-I.~A. Niaz, J.~Tanaka, and {others}, ``Mapping {UML} statecharts to java
-  code.'' in \emph{{IASTED} {Conf}. on {Software} {Engineering}}, 2004, pp.
-  111--116. [Online]. Available:
-  \url{http://www.actapress.com/PDFViewer.aspx?paperId=16433}
-\BIBentrySTDinterwordspacing
+\bibitem{spinke_object-oriented_2013}
+V.~Spinke, ``An object-oriented implementation of concurrent and hierarchical
+  state machines,'' \emph{Information and Software Technology}, vol.~55,
+  no.~10, pp. 1726--1740, Oct. 2013.
 
 \bibitem{sparxsystems_enterprise_2014}
 \BIBentryALTinterwordspacing
 SparxSystems, ``\BIBforeignlanguage{en}{Enterprise {Architect}},'' Sep. 2016.
   [Online]. Available: \url{http://www.sparxsystems.eu/start/home/}
 \BIBentrySTDinterwordspacing
-
-\bibitem{Domnguez2012}
-E.~Dom\'{i}nguez, B.~P\'{e}rez, A.~L. Rubio, and M.~A. Zapata, ``{A systematic
-  review of code generation proposals from state machine specifications},'' pp.
-  1045--1066, 2012.
-
-\bibitem{spinke_object-oriented_2013}
-V.~Spinke, ``An object-oriented implementation of concurrent and hierarchical
-  state machines,'' \emph{Information and Software Technology}, vol.~55,
-  no.~10, pp. 1726--1740, Oct. 2013.
 
 \end{thebibliography}
